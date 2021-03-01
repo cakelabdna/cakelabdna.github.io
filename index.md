@@ -8,6 +8,8 @@ Welcome visitor, this site is under construction
 
 # CyanoGate 2.0 Parts
 
+![CRISPR](assets/figs/crispr_levelT.png)
+
 
 # GoldenGate Online Cloner
 
