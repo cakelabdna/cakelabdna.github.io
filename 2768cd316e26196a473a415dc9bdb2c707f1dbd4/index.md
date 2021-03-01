@@ -11,12 +11,11 @@ All parts have been constructed and are stored in *E. coli* DH5a.
 	- Level T = contains no cut sites and a choice of positive and negative selection markers, replicate in a range of different cyanobacterial hosts.
 	
 # CyanoGate Calculator  
+<iframe width="1000" height="374" frameborder="0" scrolling="no" src="https://universityofcambridgecloud-my.sharepoint.com/personal/as2945_cam_ac_uk/_layouts/15/Doc.aspx?sourcedoc={1f4b5bc8-4e9e-4ea3-87ff-2c1e991b61fe}&action=embedview&AllowTyping=True&Item='AssemblyCalculator'!A1%3AK14&wdHideGridlines=True&wdDownloadButton=True&wdInConfigurator=True"></iframe>
 
+# Assembly History
 
-# JMLGate
-
-<iframe width="1000" height="500" frameborder="0" scrolling="no" src="https://universityofcambridgecloud-my.sharepoint.com/personal/as2945_cam_ac_uk/_layouts/15/Doc.aspx?sourcedoc={1f4b5bc8-4e9e-4ea3-87ff-2c1e991b61fe}&action=embedview&AllowTyping=True&ActiveCell='MasterAssembler'!A1&wdHideGridlines=True&wdHideHeaders=True&wdDownloadButton=True&wdInConfigurator=True"></iframe># ASGate
-
+<iframe width="1000" height="261" frameborder="0" scrolling="no" src="https://universityofcambridgecloud-my.sharepoint.com/personal/as2945_cam_ac_uk/_layouts/15/Doc.aspx?sourcedoc={1f4b5bc8-4e9e-4ea3-87ff-2c1e991b61fe}&action=embedview&AllowTyping=True&Item='MasterAssembler'!A1%3AG11&wdHideGridlines=True&wdDownloadButton=True&wdInConfigurator=True"></iframe>
 ## ASGate Level 0
 <iframe width="1000" height="400" frameborder="0" scrolling="no" src="https://universityofcambridgecloud-my.sharepoint.com/personal/as2945_cam_ac_uk/_layouts/15/Doc.aspx?sourcedoc={1f4b5bc8-4e9e-4ea3-87ff-2c1e991b61fe}&action=embedview&AllowTyping=True&Item='L0%20Parts'!A1%3AO16&wdHideGridlines=True&wdDownloadButton=True&wdInConfigurator=True"></iframe>
 
