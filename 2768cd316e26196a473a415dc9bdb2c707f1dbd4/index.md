@@ -4,11 +4,11 @@ description: the home page
 ---
 
 # CyanoGate 2.0 Registry
-A list of DNA Parts for Golden Gate assembly in cyanobacteria.
-All parts have been constructed and are stored in *E. coli* DH5a.
-	* Level 0 = contains BsaI cut sites and spectinomycin resitance marker
-	* Level 1 = contains BbsI cut sites and carbenicillin resitance marker
-	* Level T = contains no cut sites and a choice of positive and negative selection markers, replicate in a range of different cyanobacterial hosts.
+A list of DNA Parts for Golden Gate assembly in cyanobacteria.  
+All parts have been constructed and are stored in *E. coli* DH5a.  
+	- Level 0 = contains BsaI cut sites and spectinomycin resitance marker  
+	- Level 1 = contains BbsI cut sites and carbenicillin resitance marker  
+	- Level T = contains no cut sites and a choice of positive and negative selection markers, replicate in a range of different cyanobacterial hosts.
 	
 # CyanoGate Calculator  
 
