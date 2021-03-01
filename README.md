@@ -1,5 +1,5 @@
-# CyanoGate 2.0
+# Cake Lab DNA Registry
 
-This is a repository for the CyanoGate 2.0 project. 
+This is a repository for the DNA parts available in the Cake Lab. 
 
 
