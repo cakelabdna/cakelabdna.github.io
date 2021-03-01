@@ -15,8 +15,7 @@ All parts have been constructed and are stored in *E. coli* DH5a.
 
 # JMLGate
 
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRGrSl_Dh8BnqAPCtToCj-RWnE3h5z8GubHpB_kGyVxtgLD7cYqmFJc3aYs80663PxQmnjvR2DbF39x/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" width="100%" height="500" style="embed"></iframe>
-
+<iframe width="1000" height="346" frameborder="0" scrolling="no" src="https://universityofcambridgecloud-my.sharepoint.com/personal/as2945_cam_ac_uk/_layouts/15/Doc.aspx?sourcedoc={b9864d74-76bf-43b6-9377-2e56d38fc9f1}&action=embedview&AllowTyping=True&wdHideGridlines=True&wdHideHeaders=True&wdDownloadButton=True&wdInConfigurator=True"></iframe>
 # ASGate
 
 ## ASGate Level 0
