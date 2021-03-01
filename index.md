@@ -3,7 +3,7 @@ title: home
 description: the home page
 ---
 
-# About CyanoGate 2.0 
+# Cake Lab DNA Registry
 Welcome visitor, this site is under construction
 
 # CyanoGate 2.0 Parts
