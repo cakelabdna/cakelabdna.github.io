@@ -36,7 +36,7 @@ description: the home page
     <input type="text" name="Insert4_dilution" placeholder="Insert 1 Dilution Factor">
     
     
-   <input type="text" name="Insert2_name" placeholder="Insert 2 Name">
+    <input type="text" name="Insert2_name" placeholder="Insert 2 Name">
     
     <input type="text" name="Insert2_length" placeholder="Insert 2 Length">
     
@@ -89,8 +89,9 @@ description: the home page
     
     <input type="text" name="Insert7_dilution" placeholder="Insert 7 Dilution Factor">
     
-    
     <input type="submit" value="Assemble"/>
+    
+
 </form>  
   
 # Assembly Queue
