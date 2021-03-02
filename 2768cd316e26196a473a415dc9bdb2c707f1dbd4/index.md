@@ -6,10 +6,10 @@ description: the home page
 # CyanoGate Calculator  
   
 <form  id="form" method="get" action="https://script.google.com/macros/s/AKfycbxA30Ow8WCUq3pf0i8m3Qa8R0MNxkDYO5WnHnzkLBL9PiwXJt1E1JqZNA/exec" accept-charset="UTF-8">
-    <input type="text" name="Product" placeholder="Name of plasmid to assemble>
-	<input type="text" name="Description" placeholder="Give brief description>
+    <input type="text" name="Product" placeholder="Plasmid name">
+	<input type="text" name="Description" placeholder="Brief description">
 	<input type="text" name="Assembly_level" placeholder="Assembly level">
-	<input type="text" name="Backbone" placeholder="Choose Backbone Acceptor">	
+	<input type="text" name="Backbone" placeholder="Backbone Acceptor">	
 	<input type="text" name="Backbone_length" placeholder="Backbone Length (bp)">	
 	<input type="text" name="Backbone_stock" placeholder="Backbone [Stock] (ng/ul)">	
 	<input type="number" id="backbone_dilution" name="backbone_dilution" min="1" max="1000">	
