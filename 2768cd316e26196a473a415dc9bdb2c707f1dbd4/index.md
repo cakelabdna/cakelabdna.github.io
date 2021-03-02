@@ -37,7 +37,7 @@ description: the home page
  	
     <input type="text" name="Insert1_name" placeholder="Insert 1 Name">
     
-    <input type="text" name="Insert2_length" placeholder="Insert 1 Length>
+    <input type="text" name="Insert2_length" placeholder="Insert 1 Length">
     
     <input type="text" name="Insert3_stock" placeholder="Insert 1 Stock (ng/ul)">
     
@@ -46,7 +46,7 @@ description: the home page
     
    <input type="text" name="Insert2_name" placeholder="Insert 2 Name">
     
-    <input type="text" name="Insert2_length" placeholder="Insert 2 Length>
+    <input type="text" name="Insert2_length" placeholder="Insert 2 Length">
     
     <input type="text" name="Insert2_stock" placeholder="Insert 2 Stock (ng/ul)">
     
@@ -55,7 +55,7 @@ description: the home page
     
     <input type="text" name="Insert3_name" placeholder="Insert 3 Name">
     
-    <input type="text" name="Insert3_length" placeholder="Insert 3 Length>
+    <input type="text" name="Insert3_length" placeholder="Insert 3 Length">
     
     <input type="text" name="Insert3_stock" placeholder="Insert 3 Stock (ng/ul)">
     
@@ -64,7 +64,7 @@ description: the home page
     
     <input type="text" name="Insert4_name" placeholder="Insert 4 Name">
     
-    <input type="text" name="Insert4_length" placeholder="Insert 4 Length>
+    <input type="text" name="Insert4_length" placeholder="Insert 4 Length">
     
     <input type="text" name="Insert4_stock" placeholder="Insert 4 Stock (ng/ul)">
     
@@ -73,7 +73,7 @@ description: the home page
         
     <input type="text" name="Insert5_name" placeholder="Insert 5 Name">
     
-    <input type="text" name="Insert5_length" placeholder="Insert 5 Length>
+    <input type="text" name="Insert5_length" placeholder="Insert 5 Length">
     
     <input type="text" name="Insert5_stock" placeholder="Insert 5 Stock (ng/ul)">
     
@@ -82,7 +82,7 @@ description: the home page
         
     <input type="text" name="Insert6_name" placeholder="Insert 6 Name">
     
-    <input type="text" name="Insert6_length" placeholder="Insert 6 Length>
+    <input type="text" name="Insert6_length" placeholder="Insert 6 Length">
     
     <input type="text" name="Insert6_stock" placeholder="Insert 6 Stock (ng/ul)">
     
@@ -91,7 +91,7 @@ description: the home page
     
     <input type="text" name="Insert7_name" placeholder="Insert 7 Name">
     
-    <input type="text" name="Insert7_length" placeholder="Insert 7 Length>
+    <input type="text" name="Insert7_length" placeholder="Insert 7 Length">
     
     <input type="text" name="Insert7_stock" placeholder="Insert 7 Stock (ng/ul)">
     
