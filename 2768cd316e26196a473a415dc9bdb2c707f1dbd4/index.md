@@ -6,7 +6,7 @@ description: the home page
 # CyanoGate Calculator  
 
 <form  id="form" method="get" action="https://script.google.com/macros/s/AKfycbxA30Ow8WCUq3pf0i8m3Qa8R0MNxkDYO5WnHnzkLBL9PiwXJt1E1JqZNA/exec" accept-charset="UTF-8">
-    <input type="text" name="Product" placeholder="Product">
+    <input type="text" name="Product" placeholder="Product Name">
 	<input type="text" name="Backbone" placeholder="Backbone">
     <input type="text" name="Insert1" placeholder="Insert 1">
     <input type="text" name="Insert2" placeholder="Insert 2">
