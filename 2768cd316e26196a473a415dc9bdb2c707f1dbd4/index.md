@@ -6,22 +6,98 @@ description: the home page
 # CyanoGate Calculator  
   
 <form  id="form" method="get" action="https://script.google.com/macros/s/AKfycbxA30Ow8WCUq3pf0i8m3Qa8R0MNxkDYO5WnHnzkLBL9PiwXJt1E1JqZNA/exec" accept-charset="UTF-8">
+   
+   
     <input type="text" name="Product" placeholder="Plasmid name">
+    
 	<input type="text" name="Description" placeholder="Brief description">
+	
 	<input type="text" name="Assembly_level" placeholder="Assembly level">
+	
 	<input type="text" name="Backbone" placeholder="Backbone Acceptor">	
-	<input type="text" name="Backbone_length" placeholder="Backbone Length (bp)">	
+	
+	
+	
+	<input type="text" name="Backbone_length" placeholder="Backbone Length (bp)">
+		
 	<input type="text" name="Backbone_stock" placeholder="Backbone [Stock] (ng/ul)">	
-	<input type="number" id="backbone_dilution" name="backbone_dilution" min="1" max="1000">	
+	
+	<label for="backbone_dilution">Backbone stock dilution factor</label>
+  	<select id="backbone_dilution" name="backbone_dilution">
+    <option value=1>Volvo</option>
+    <option value=10>Saab</option>
+    <option value=50>Fiat</option>
+    <option value=100>Audi</option>
+    <option value=100>Audi</option>
+  	</select>
+  
 	<label for="quantity">How many inserts?:</label>
- 	<input type="number" id="quantity" name="quantity" min="1" max="7">
-    <input type="text" name="Insert1" placeholder="Insert 1">
-    <input type="text" name="Insert2" placeholder="Insert 2">
-    <input type="text" name="Insert3" placeholder="Insert 3">
-    <input type="text" name="Insert4" placeholder="Insert 4">
-    <input type="text" name="Insert5" placeholder="Insert 5">
-    <input type="text" name="Insert6" placeholder="Insert 6">
-    <input type="text" name="Insert7" placeholder="Insert 7">
+ 	<input type="number" id="quantity" name="quantity" min="1" max="7"
+ 	
+ 	
+    <input type="text" name="Insert1_name" placeholder="Insert 1 Name">
+    
+    <input type="text" name="Insert2_length" placeholder="Insert 1 Length>
+    
+    <input type="text" name="Insert3_stock" placeholder="Insert 1 Stock (ng/ul)">
+    
+    <input type="text" name="Insert4_dilution" placeholder="Insert 1 Dilution Factor">
+    
+    
+   <input type="text" name="Insert2_name" placeholder="Insert 2 Name">
+    
+    <input type="text" name="Insert2_length" placeholder="Insert 2 Length>
+    
+    <input type="text" name="Insert2_stock" placeholder="Insert 2 Stock (ng/ul)">
+    
+    <input type="text" name="Insert2_dilution" placeholder="Insert 2 Dilution Factor">
+    
+    
+    <input type="text" name="Insert3_name" placeholder="Insert 3 Name">
+    
+    <input type="text" name="Insert3_length" placeholder="Insert 3 Length>
+    
+    <input type="text" name="Insert3_stock" placeholder="Insert 3 Stock (ng/ul)">
+    
+    <input type="text" name="Insert3_dilution" placeholder="Insert 3 Dilution Factor">
+    
+    
+    <input type="text" name="Insert4_name" placeholder="Insert 4 Name">
+    
+    <input type="text" name="Insert4_length" placeholder="Insert 4 Length>
+    
+    <input type="text" name="Insert4_stock" placeholder="Insert 4 Stock (ng/ul)">
+    
+    <input type="text" name="Insert4_dilution" placeholder="Insert 4 Dilution Factor">
+    
+        
+    <input type="text" name="Insert5_name" placeholder="Insert 5 Name">
+    
+    <input type="text" name="Insert5_length" placeholder="Insert 5 Length>
+    
+    <input type="text" name="Insert5_stock" placeholder="Insert 5 Stock (ng/ul)">
+    
+    <input type="text" name="Insert5_dilution" placeholder="Insert 5 Dilution Factor">
+    
+        
+    <input type="text" name="Insert6_name" placeholder="Insert 6 Name">
+    
+    <input type="text" name="Insert6_length" placeholder="Insert 6 Length>
+    
+    <input type="text" name="Insert6_stock" placeholder="Insert 6 Stock (ng/ul)">
+    
+    <input type="text" name="Insert6_dilution" placeholder="Insert 6 Dilution Factor">
+    
+    
+    <input type="text" name="Insert7_name" placeholder="Insert 7 Name">
+    
+    <input type="text" name="Insert7_length" placeholder="Insert 7 Length>
+    
+    <input type="text" name="Insert7_stock" placeholder="Insert 7 Stock (ng/ul)">
+    
+    <input type="text" name="Insert7_dilution" placeholder="Insert 7 Dilution Factor">
+    
+    
     <input type="submit" value="Assemble"/>
 </form>  
   
