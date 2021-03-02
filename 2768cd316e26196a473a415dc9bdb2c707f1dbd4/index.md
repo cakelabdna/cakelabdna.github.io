@@ -24,10 +24,7 @@ description: the home page
 	<input type="text" name="Backbone_stock" placeholder="Backbone [Stock] (ng/ul)">	
 	
   	<input type="text" name="backbone_dilution" placeholder="Backbone dilution">
-  
-	<label for="quantity">How many inserts?</label>
- 	<input type="number" id="quantity" name="quantity" min="1" max="7">
- 	
+   	
     <input type="text" name="Insert1_name" placeholder="Insert 1 Name">
     
     <input type="text" name="Insert2_length" placeholder="Insert 1 Length">
