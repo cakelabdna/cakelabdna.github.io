@@ -4,10 +4,17 @@ description: the home page
 ---
 
 # CyanoGate Calculator  
-
+  
 <form  id="form" method="get" action="https://script.google.com/macros/s/AKfycbxA30Ow8WCUq3pf0i8m3Qa8R0MNxkDYO5WnHnzkLBL9PiwXJt1E1JqZNA/exec" accept-charset="UTF-8">
-    <input type="text" name="Product" placeholder="Product Name">
-	<input type="text" name="Backbone" placeholder="Backbone">
+    <input type="text" name="Product" placeholder="Name of plasmid to assemble>
+	<input type="text" name="Description" placeholder="Give brief description>
+	<input type="text" name="Assembly_level" placeholder="Assembly level">
+	<input type="text" name="Backbone" placeholder="Choose Backbone Acceptor">	
+	<input type="text" name="Backbone_length" placeholder="Backbone Length (bp)">	
+	<input type="text" name="Backbone_stock" placeholder="Backbone [Stock] (ng/ul)">	
+	<input type="number" id="backbone_dilution" name="backbone_dilution" min="1" max="1000">	
+	<label for="quantity">How many inserts?:</label>
+ 	<input type="number" id="quantity" name="quantity" min="1" max="7">
     <input type="text" name="Insert1" placeholder="Insert 1">
     <input type="text" name="Insert2" placeholder="Insert 2">
     <input type="text" name="Insert3" placeholder="Insert 3">
@@ -16,7 +23,9 @@ description: the home page
     <input type="text" name="Insert6" placeholder="Insert 6">
     <input type="text" name="Insert7" placeholder="Insert 7">
     <input type="submit" value="Assemble"/>
-</form>
+</form>  
+  
+  
 
 
 <div class="uCalc_339742"></div><script> var widgetOptions339742 = { bg_color: "transparent" }; (function() { var a = document.createElement("script"), h = "head"; a.async = true; a.src = (document.location.protocol == "https:" ? "https:" : "http:") + "//ucalc.pro/api/widget.js?id=339742&t="+Math.floor(new Date()/18e5); document.getElementsByTagName(h)[0].appendChild(a) })();</script>
