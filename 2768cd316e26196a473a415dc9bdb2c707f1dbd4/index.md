@@ -7,13 +7,14 @@ description: the home page
 
 <form  id="form" method="get" action="https://script.google.com/macros/s/AKfycbxA30Ow8WCUq3pf0i8m3Qa8R0MNxkDYO5WnHnzkLBL9PiwXJt1E1JqZNA/exec" accept-charset="UTF-8">
     <input type="text" name="Product" placeholder="Product">
-    <input type="text" name="Insert 1" placeholder="Insert 1">
-    <input type="text" name="Insert 2" placeholder="Insert 2">
-    <input type="text" name="Insert 3" placeholder="Insert 3">
-    <input type="text" name="Insert 4" placeholder="Insert 4">
-    <input type="text" name="Insert 5" placeholder="Insert 5">
-    <input type="text" name="Insert 6" placeholder="Insert 6">
-    <input type="text" name="Insert 7" placeholder="Insert 7">
+	<input type="text" name="Backbone" placeholder="Backbone">
+    <input type="text" name="Insert1" placeholder="Insert 1">
+    <input type="text" name="Insert2" placeholder="Insert 2">
+    <input type="text" name="Insert3" placeholder="Insert 3">
+    <input type="text" name="Insert4" placeholder="Insert 4">
+    <input type="text" name="Insert5" placeholder="Insert 5">
+    <input type="text" name="Insert6" placeholder="Insert 6">
+    <input type="text" name="Insert7" placeholder="Insert 7">
     <input type="submit" value="Subscribe"/>
 </form>
 
