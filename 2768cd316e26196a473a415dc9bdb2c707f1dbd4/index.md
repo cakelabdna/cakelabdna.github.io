@@ -22,18 +22,17 @@ description: the home page
 		
 	<input type="text" name="Backbone_stock" placeholder="Backbone [Stock] (ng/ul)">	
 	
-	<label for="backbone_dilution">Backbone stock dilution factor</label>
+	<label for="backbone_dilution">Backbone dilution factor</label>
   	<select id="backbone_dilution" name="backbone_dilution">
-    <option value=1>Volvo</option>
-    <option value=10>Saab</option>
-    <option value=50>Fiat</option>
-    <option value=100>Audi</option>
-    <option value=100>Audi</option>
+    <option value=1>1/option>
+    <option value=10>10</option>
+    <option value=50>50</option>
+    <option value=100>100</option>
+    <option value=100>1000</option>
   	</select>
   
-	<label for="quantity">How many inserts?:</label>
- 	<input type="number" id="quantity" name="quantity" min="1" max="7"
- 	
+	<label for="quantity">How many inserts?</label>
+ 	<input type="number" id="quantity" name="quantity" min="1" max="7">
  	
     <input type="text" name="Insert1_name" placeholder="Insert 1 Name">
     
@@ -101,8 +100,11 @@ description: the home page
     <input type="submit" value="Assemble"/>
 </form>  
   
+# Assembly Queue
+<iframe width="1000" height="300" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTWhc3ZkTQasnqLvXL5ais9haD2w1RxJI_au9acA11FKOAKb9akM6gWdu29c85KLnt63rr903oUpDlk/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+
 # Assembly History
-<iframe width="1000" height="400" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRGrSl_Dh8BnqAPCtToCj-RWnE3h5z8GubHpB_kGyVxtgLD7cYqmFJc3aYs80663PxQmnjvR2DbF39x/pubhtml?gid=0&amp;single=true&amp;AllowTyping=True;widget=true&amp;headers=false"></iframe>
+<iframe width="1000" height="600" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRGrSl_Dh8BnqAPCtToCj-RWnE3h5z8GubHpB_kGyVxtgLD7cYqmFJc3aYs80663PxQmnjvR2DbF39x/pubhtml?gid=0&amp;single=true&amp;AllowTyping=True;widget=true&amp;headers=false"></iframe>
 
 ## ASGate Level 0
 <iframe width="1000" height="400" frameborder="0" scrolling="no" src="https://universityofcambridgecloud-my.sharepoint.com/personal/as2945_cam_ac_uk/_layouts/15/Doc.aspx?sourcedoc={1f4b5bc8-4e9e-4ea3-87ff-2c1e991b61fe}&action=embedview&AllowTyping=True&Item='L0%20Parts'!A1%3AO16&wdHideGridlines=True&wdDownloadButton=True&wdInConfigurator=True"></iframe>
