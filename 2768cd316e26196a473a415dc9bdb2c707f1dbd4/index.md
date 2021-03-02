@@ -13,6 +13,13 @@ All parts have been constructed and are stored in *E. coli* DH5a.
 # CyanoGate Calculator  
 <iframe width="1000" height="450" frameborder="0" scrolling="no" src="https://universityofcambridgecloud-my.sharepoint.com/personal/as2945_cam_ac_uk/_layouts/15/Doc.aspx?sourcedoc={1f4b5bc8-4e9e-4ea3-87ff-2c1e991b61fe}&action=embedview&AllowTyping=True&Item='AssemblyCalculator'!A1%3AK14&wdHideGridlines=True&wdDownloadButton=True&wdInConfigurator=True"></iframe>
 
+<form  id="form" method="get" action="https://script.google.com/macros/s/AKfycbxeKTVlTkqSGLIRphBrzACjuWlfmejbPIG7NqBxx-7Us7lnqLw/exec" accept-charset="UTF-8">
+    <input type="text" name="newletter_name" placeholder="Product">
+    <input type="text" name="newletter_email" placeholder="Level">
+    <input type="submit" value="Calculate"/>
+</form>
+
+
 # Assembly History
 <iframe width="1000" height="400" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRGrSl_Dh8BnqAPCtToCj-RWnE3h5z8GubHpB_kGyVxtgLD7cYqmFJc3aYs80663PxQmnjvR2DbF39x/pubhtml?gid=0&amp;single=true&amp;AllowTyping=True;widget=true&amp;headers=false"></iframe>
 
