@@ -22,14 +22,7 @@ description: the home page
 		
 	<input type="text" name="Backbone_stock" placeholder="Backbone [Stock] (ng/ul)">	
 	
-	<label for="backbone_dilution">Backbone dilution factor</label>
-  	<select id="backbone_dilution" name="backbone_dilution">
-    <option value=1>1/option>
-    <option value=10>10</option>
-    <option value=50>50</option>
-    <option value=100>100</option>
-    <option value=100>1000</option>
-  	</select>
+  	<input type="text" name="backbone_dilution" placeholder="Backbone dilution">
   
 	<label for="quantity">How many inserts?</label>
  	<input type="number" id="quantity" name="quantity" min="1" max="7">
