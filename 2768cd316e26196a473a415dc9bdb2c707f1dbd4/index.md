@@ -15,7 +15,7 @@ description: the home page
     <input type="text" name="Insert5" placeholder="Insert 5">
     <input type="text" name="Insert6" placeholder="Insert 6">
     <input type="text" name="Insert7" placeholder="Insert 7">
-    <input type="submit" value="Subscribe"/>
+    <input type="submit" value="Assemble/>
 </form>
 
 
