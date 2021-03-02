@@ -5,69 +5,17 @@ description: the home page
 
 # CyanoGate Calculator  
 
-<form id="test-form">
-  
-  <div>
-    <label>Product</label>
-    <input type="text" name="Product" placeholder="Field 1"/>
-  </div>
-
-  <div>
-    <label>Insert 1</label>
-    <input type="text" name="Insert 1" placeholder="Field 2"/>
-  </div>
-  
-  <div>
-    <label>Insert 2</label>
-    <input type="text" name="Insert 2" placeholder="Field 3"/>
-  </div>
-  
-  <div>
-    <label>Insert 3</label>
-    <input type="text" name="Insert 3" placeholder="Field 4"/>
-  </div>
-  
-  <div>
-    <label>Insert 4</label>
-    <input type="text" name="Insert 4" placeholder="Field 4"/>
-  </div>
-  
-<div>
-    <label>Insert 5</label>
-    <input type="text" name="Insert 5" placeholder="Field 4"/>
-  </div>
-
-<div>
-    <label>Insert 6</label>
-    <input type="text" name="Insert 6" placeholder="Field 4"/>
-  </div>
-
-<div>
-    <label>Insert 7</label>
-    <input type="text" name="Insert 7" placeholder="Field 4"/>
-  </div>
-
-
-  <div>
-    <button type="submit"id="submit-form">Submit</button>
-  </div>
-  
+<form  id="form" method="get" action="https://script.google.com/macros/s/AKfycbxA30Ow8WCUq3pf0i8m3Qa8R0MNxkDYO5WnHnzkLBL9PiwXJt1E1JqZNA/exec" accept-charset="UTF-8">
+    <input type="text" name="Product" placeholder="Product">
+    <input type="text" name="Insert 1" placeholder="Insert 1">
+    <input type="text" name="Insert 2" placeholder="Insert 2">
+    <input type="text" name="Insert 3" placeholder="Insert 3">
+    <input type="text" name="Insert 4" placeholder="Insert 4">
+    <input type="text" name="Insert 5" placeholder="Insert 5">
+    <input type="text" name="Insert 6" placeholder="Insert 6">
+    <input type="text" name="Insert 7" placeholder="Insert 7">
+    <input type="submit" value="Subscribe"/>
 </form>
-
-var $form = $('form#test-form'),
-    url = 'https://script.google.com/macros/s/AKfycbxA30Ow8WCUq3pf0i8m3Qa8R0MNxkDYO5WnHnzkLBL9PiwXJt1E1JqZNA/exec'
-
-$('#submit-form').on('click', function(e) {
-  e.preventDefault();
-  var jqxhr = $.ajax({
-    url: url,
-    method: "GET",
-    dataType: "json",
-    data: $form.serializeObject()
-  }).success(
-    // do something
-  );
-})
 
 
 
