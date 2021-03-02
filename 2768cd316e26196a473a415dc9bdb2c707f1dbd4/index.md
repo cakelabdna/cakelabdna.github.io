@@ -11,7 +11,7 @@ All parts have been constructed and are stored in *E. coli* DH5a.
 	- Level T = contains no cut sites and a choice of positive and negative selection markers, replicate in a range of different cyanobacterial hosts.
 	
 # CyanoGate Calculator  
-<iframe width="1000" height="374" frameborder="0" scrolling="no" src="https://universityofcambridgecloud-my.sharepoint.com/personal/as2945_cam_ac_uk/_layouts/15/Doc.aspx?sourcedoc={1f4b5bc8-4e9e-4ea3-87ff-2c1e991b61fe}&action=embedview&AllowTyping=True&Item='AssemblyCalculator'!A1%3AK14&wdHideGridlines=True&wdDownloadButton=True&wdInConfigurator=True"></iframe>
+<iframe width="1000" height="450" frameborder="0" scrolling="no" src="https://universityofcambridgecloud-my.sharepoint.com/personal/as2945_cam_ac_uk/_layouts/15/Doc.aspx?sourcedoc={1f4b5bc8-4e9e-4ea3-87ff-2c1e991b61fe}&action=embedview&AllowTyping=True&Item='AssemblyCalculator'!A1%3AK14&wdHideGridlines=True&wdDownloadButton=True&wdInConfigurator=True"></iframe>
 
 # Assembly History
 <iframe width="1000" height="900" frameborder="0" scrolling="no" src="https://universityofcambridgecloud-my.sharepoint.com/personal/as2945_cam_ac_uk/_layouts/15/Doc.aspx?sourcedoc={1f4b5bc8-4e9e-4ea3-87ff-2c1e991b61fe}&action=embedview&AllowTyping=True&Item='MasterAssembler'!A1%3ABS211&wdHideGridlines=True&wdDownloadButton=True&wdInConfigurator=True"></iframe>
