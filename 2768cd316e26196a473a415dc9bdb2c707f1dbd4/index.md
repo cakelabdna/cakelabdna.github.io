@@ -52,6 +52,8 @@ description: the home page
     <button type="submit"id="submit-form">Submit</button>
   </div>
   
+</form>
+
 var $form = $('form#test-form'),
     url = 'https://script.google.com/macros/s/AKfycbxA30Ow8WCUq3pf0i8m3Qa8R0MNxkDYO5WnHnzkLBL9PiwXJt1E1JqZNA/exec'
 
@@ -66,9 +68,6 @@ $('#submit-form').on('click', function(e) {
     // do something
   );
 })
-
-</form>
-
 
 
 
