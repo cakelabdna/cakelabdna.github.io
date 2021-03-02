@@ -7,7 +7,8 @@ description: the home page
   
 <form  id="form" method="get" action="https://script.google.com/macros/s/AKfycbxA30Ow8WCUq3pf0i8m3Qa8R0MNxkDYO5WnHnzkLBL9PiwXJt1E1JqZNA/exec" accept-charset="UTF-8">
    
-   
+  	<input type="date" value="2021-03-02">
+
     <input type="text" name="Product" placeholder="Plasmid name">
     
 	<input type="text" name="Description" placeholder="Brief description">
