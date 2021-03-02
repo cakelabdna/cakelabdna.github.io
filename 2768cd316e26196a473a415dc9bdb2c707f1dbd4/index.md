@@ -25,12 +25,6 @@ description: the home page
     <input type="submit" value="Assemble"/>
 </form>  
   
-  
-
-
-<div class="uCalc_339742"></div><script> var widgetOptions339742 = { bg_color: "transparent" }; (function() { var a = document.createElement("script"), h = "head"; a.async = true; a.src = (document.location.protocol == "https:" ? "https:" : "http:") + "//ucalc.pro/api/widget.js?id=339742&t="+Math.floor(new Date()/18e5); document.getElementsByTagName(h)[0].appendChild(a) })();</script>
-<iframe width="1000" height="450" frameborder="0" scrolling="no" src="https://universityofcambridgecloud-my.sharepoint.com/personal/as2945_cam_ac_uk/_layouts/15/Doc.aspx?sourcedoc={1f4b5bc8-4e9e-4ea3-87ff-2c1e991b61fe}&action=embedview&AllowTyping=True&Item='AssemblyCalculator'!A1%3AK14&wdHideGridlines=True&wdDownloadButton=True&wdInConfigurator=True"></iframe>
-
 # Assembly History
 <iframe width="1000" height="400" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRGrSl_Dh8BnqAPCtToCj-RWnE3h5z8GubHpB_kGyVxtgLD7cYqmFJc3aYs80663PxQmnjvR2DbF39x/pubhtml?gid=0&amp;single=true&amp;AllowTyping=True;widget=true&amp;headers=false"></iframe>
 
