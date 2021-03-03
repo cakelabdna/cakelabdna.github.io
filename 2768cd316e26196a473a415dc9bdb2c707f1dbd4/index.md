@@ -18,7 +18,6 @@ description: the home page
 	<input type="text" name="Backbone" placeholder="Backbone Acceptor">	
 	
 	
-	
 	<input type="text" name="Backbone_length" placeholder="Backbone Length (bp)">
 		
 	<input type="text" name="Backbone_stock" placeholder="Backbone [Stock] (ng/ul)">	
@@ -27,29 +26,31 @@ description: the home page
    	
     <input type="text" name="Insert1_name" placeholder="Insert 1 Name">
     
-    <input type="text" name="Insert2_length" placeholder="Insert 1 Length">
+    <input type="text" name="Insert1_length" placeholder="Insert 1 Length">
     
-    <input type="text" name="Insert3_stock" placeholder="Insert 1 Stock (ng/ul)">
+    <input type="text" name="Insert1_stock" placeholder="Insert 1 Stock (ng/ul)">
     
-    <input type="text" name="Insert4_ratio" placeholder="Insert 1 Dilution Factor">
+    <input type="text" name="Insert1_ratio" placeholder="Insert 1 I:B Ratio">
     
-    
+
+
     <input type="text" name="Insert2_name" placeholder="Insert 2 Name">
     
     <input type="text" name="Insert2_length" placeholder="Insert 2 Length">
     
     <input type="text" name="Insert2_stock" placeholder="Insert 2 Stock (ng/ul)">
     
-    <input type="text" name="Insert2_ratio" placeholder="Insert 2 Dilution Factor">
+    <input type="text" name="Insert2_ratio" placeholder="Insert 2 I:B Ratio">
     
     
+
     <input type="text" name="Insert3_name" placeholder="Insert 3 Name">
     
     <input type="text" name="Insert3_length" placeholder="Insert 3 Length">
     
     <input type="text" name="Insert3_stock" placeholder="Insert 3 Stock (ng/ul)">
     
-    <input type="text" name="Insert3_ratio" placeholder="Insert 3 Dilution Factor">
+    <input type="text" name="Insert3_ratio" placeholder="Insert 3 I:B Ratio">
     
     
     <input type="text" name="Insert4_name" placeholder="Insert 4 Name">
@@ -58,7 +59,7 @@ description: the home page
     
     <input type="text" name="Insert4_stock" placeholder="Insert 4 Stock (ng/ul)">
     
-    <input type="text" name="Insert4_ratio" placeholder="Insert 4 Dilution Factor">
+    <input type="text" name="Insert4_ratio" placeholder="Insert 4 I:B Ratio">
     
         
     <input type="text" name="Insert5_name" placeholder="Insert 5 Name">
@@ -67,7 +68,7 @@ description: the home page
     
     <input type="text" name="Insert5_stock" placeholder="Insert 5 Stock (ng/ul)">
     
-    <input type="text" name="Insert5_ratio" placeholder="Insert 5 Dilution Factor">
+    <input type="text" name="Insert5_ratio" placeholder="Insert 5 I:B Ratio">
     
         
     <input type="text" name="Insert6_name" placeholder="Insert 6 Name">
@@ -76,7 +77,7 @@ description: the home page
     
     <input type="text" name="Insert6_stock" placeholder="Insert 6 Stock (ng/ul)">
     
-    <input type="text" name="Insert6_ratio" placeholder="Insert 6 Dilution Factor">
+    <input type="text" name="Insert6_ratio" placeholder="Insert 6 I:B Ratio">
     
     
     <input type="text" name="Insert7_name" placeholder="Insert 7 Name">
@@ -85,7 +86,7 @@ description: the home page
     
     <input type="text" name="Insert7_stock" placeholder="Insert 7 Stock (ng/ul)">
     
-    <input type="text" name="Insert7_ratio" placeholder="Insert 7 Dilution Factor">
+    <input type="text" name="Insert7_ratio" placeholder="Insert 7 I:B Ratio">
     
     <input type="submit" value="Assemble"/>
     
