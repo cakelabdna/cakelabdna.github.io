@@ -16,32 +16,46 @@ description: the home page
 </script>
 
   
-<form  name="submit-to-google-sheet" action="https://cakelabdna.github.io/2768cd316e26196a473a415dc9bdb2c707f1dbd4/index.html">
+<form  name="submit-to-google-sheet" action="https://script.google.com/macros/s/AKfycbzgb0tGoOzUElKU2nvC7XcTneymL1_sBaNGMDwJEG7jCMyPS0CzqU3tpb1CgfFpT-JOYA/exec">
    
     <input type="text" name="Product" placeholder="Assembly name" required>
+    
 	<input type="text" name="Description" placeholder="Brief description" required>
+	
 	<label for="Assembly_level">Assembly level</label>
+	
 	<select name="Assembly_level" id="Assembly_level">
  	 <option value="Level 0">Level 0</option>
   	 <option value="Level 1">Level 1</option>
  	 <option value="Level T">Level T</option>
  	 <option value="Custom">Custom</option>
 	</select>
+	
     <label for="inserts">Number of inserts:</label>
     <input type="number" id="inserts" name="inserts" min="1" max="7">
+    
 	<input type="text" name="Backbone" placeholder="Backbone Acceptor" required>	
+	
 	<input type="text" name="Backbone_length" placeholder="Backbone Length (bp)" required>
+	
 	<input type="text" name="Backbone_stock" placeholder="Backbone [Stock] (ng/ul)" required>	
+	
   	<label for="backbone_ng">Backbone mass (ng)</label>
     <select name="backbone_ng" id="backbone_ng" required>
  	 <option value="2">2</option>
   	 <option value="10">10</option>
  	 <option value="20">20</option>
  	 <option value="Custom"></option>
-	</select>	    	
+	</select>	 
+	   	
     <input type="text" name="Insert1_name" placeholder="Insert 1 Name" required>
-    <input type="text" name="Insert1_length" placeholder="Insert 1 Length" required>
-    <input type="text" name="Insert1_stock" placeholder="Insert 1 Stock (ng/ul)" required>
+    
+    <label for="Insert1_length">Insert 1 Length (bp)</label>
+    <input type="number" id="Insert1_length" name="Insert1_length" min="0" max="10000" required>
+    
+    <label for="Insert1_stock">Insert 1 Stock (ng/ul)</label>
+    <input type="number" id="Insert1_stock" name="Insert1_stock" min="0" max="10000" required>
+    
     <label for="Insert1_ratio">I1/B Ratio</label>
     <select name="Insert1_ratio" id="Insert1_ratio">
  	 <option value="2">2</option>
@@ -49,9 +63,14 @@ description: the home page
  	 <option value="20">20</option>
  	 <option value="Custom"></option>
 	</select>	
+	
     <input type="text" name="Insert2_name" placeholder="Insert 2 Name">
-    <input type="text" name="Insert2_length" placeholder="Insert 2 Length">
-    <input type="text" name="Insert2_stock" placeholder="Insert 2 Stock (ng/ul)"> 
+ 
+  	<label for="Insert2_length">Insert 2 Length (bp)</label>
+    <input type="number" id="Insert2_length" name="Insert2_length" min="0" max="10000" required>
+    <label for="Insert1_stock">Insert 1 Stock (ng/ul)</label>
+    <input type="number" id="Insert1_stock" name="Insert1_stock" min="0" max="10000" required>
+    
     <label for="Insert2_ratio">I2/B Ratio</label>
     <select name="Insert2_ratio" id="Insert2_ratio">
  	 <option value="2">2</option>
@@ -59,9 +78,15 @@ description: the home page
  	 <option value="20">20</option>
  	 <option value="Custom"></option>
 	</select>	    
+	
 	<input type="text" name="Insert3_name" placeholder="Insert 3 Name">
-    <input type="text" name="Insert3_length" placeholder="Insert 3 Length">
-    <input type="text" name="Insert3_stock" placeholder="Insert 3 Stock (ng/ul)">
+	
+ 	<label for="Insert3_length">Insert 3 Length (bp)</label>
+    <input type="number" id="Insert3_length" name="Insert3_length" min="0" max="10000" required>
+    
+    <label for="Insert3_stock">Insert 3 Stock (ng/ul)</label>
+    <input type="number" id="Insert3_stock" name="Insert3_stock" min="0" max="10000" required>
+    
     <label for="Insert3_ratio">I3/B Ratio</label>
     <select name="Insert3_ratio" id="Insert3_ratio">
  	 <option value="2">2</option>
@@ -69,9 +94,16 @@ description: the home page
  	 <option value="20">20</option>
  	 <option value="Custom"></option>
 	</select>	    
+	
+	
 	<input type="text" name="Insert4_name" placeholder="Insert 4 Name">
-    <input type="text" name="Insert4_length" placeholder="Insert 4 Length">
-    <input type="text" name="Insert4_stock" placeholder="Insert 4 Stock (ng/ul)">
+	
+    <label for="Insert4_length">Insert 4 Length (bp)</label>
+    <input type="number" id="Insert4_length" name="Insert4_length" min="0" max="10000" required>
+    
+    <label for="Insert4_stock">Insert 4 Stock (ng/ul)</label>
+    <input type="number" id="Insert4_stock" name="Insert4_stock" min="0" max="10000" required>
+    
     <label for="Insert4_ratio">I4/B Ratio</label>
     <select name="Insert4_ratio" id="Insert4_ratio">
  	 <option value="2">2</option>
@@ -79,9 +111,18 @@ description: the home page
  	 <option value="20">20</option>
  	 <option value="Custom"></option>
 	</select>	
+	
+	
+	
+	
 	<input type="text" name="Insert5_name" placeholder="Insert 5 Name">
-    <input type="text" name="Insert5_length" placeholder="Insert 5 Length">
-    <input type="text" name="Insert5_stock" placeholder="Insert 5 Stock (ng/ul)">
+	
+    <label for="Insert5_length">Insert 5 Length (bp)</label>
+    <input type="number" id="Insert5_length" name="Insert5_length" min="0" max="10000" >
+    
+    <label for="Insert5_stock">Insert 5 Stock (ng/ul)</label>
+    <input type="number" id="Insert5_stock" name="Insert5_stock" min="0" max="10000">
+    
     <label for="Insert5_ratio">I5/B Ratio</label>
     <select name="Insert5_ratio" id="Insert5_ratio">
  	 <option value="2">2</option>
@@ -89,9 +130,17 @@ description: the home page
  	 <option value="20">20</option>
  	 <option value="Custom"></option>
 	</select>	
+	
+	
+	
 	<input type="text" name="Insert6_name" placeholder="Insert 6 Name">
-    <input type="text" name="Insert6_length" placeholder="Insert 6 Length">
-    <input type="text" name="Insert6_stock" placeholder="Insert 6 Stock (ng/ul)">
+	
+   	<label for="Insert6_length">Insert 6 Length (bp)</label>
+    <input type="number" id="Insert6_length" name="Insert6_length" min="0" max="10000">
+    
+    <label for="Insert6_stock">Insert 6 Stock (ng/ul)</label>
+    <input type="number" id="Insert6_stock" name="Insert6_stock" min="0" max="10000">
+    
     <label for="Insert6_ratio">I6/B Ratio</label>
     <select name="Insert6_ratio" id="Insert6_ratio">
  	 <option value="2">2</option>
@@ -99,9 +148,19 @@ description: the home page
  	 <option value="20">20</option>
  	 <option value="Custom"></option>
 	</select>	
+	
+	
+	
+	
+	
 	<input type="text" name="Insert7_name" placeholder="Insert 7 Name">
-    <input type="text" name="Insert7_length" placeholder="Insert 7 Length">
-    <input type="text" name="Insert7_stock" placeholder="Insert 7 Stock (ng/ul)">
+	
+    <label for="Insert7_length">Insert 7 Length (bp)</label>
+    <input type="number" id="Insert7_length" name="Insert7_length" min="0" max="10000">
+    
+    <label for="Insert7_stock">Insert 7 Stock (ng/ul)</label>
+    <input type="number" id="Insert7_stock" name="Insert67stock" min="0" max="10000">
+    
     <label for="Insert7_ratio">I7/B Ratio</label>
     <select name="Insert7_ratio" id="Insert7_ratio">
  	 <option value="2">2</option>
@@ -111,6 +170,10 @@ description: the home page
 	</select>	    
     <button type="submit">ASSEMBLE</button>
 </form>  
+
+
+
+
 
 <script>
   const scriptURL = 'https://script.google.com/macros/s/AKfycbzgb0tGoOzUElKU2nvC7XcTneymL1_sBaNGMDwJEG7jCMyPS0CzqU3tpb1CgfFpT-JOYA/exec'
