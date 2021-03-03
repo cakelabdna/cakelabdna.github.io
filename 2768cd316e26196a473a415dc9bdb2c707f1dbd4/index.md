@@ -5,21 +5,21 @@ description: the home page
 
 # CyanoGate Calculator  
   
-<form  id="form" method="get" action="https://script.google.com/macros/s/AKfycbzgb0tGoOzUElKU2nvC7XcTneymL1_sBaNGMDwJEG7jCMyPS0CzqU3tpb1CgfFpT-JOYA/exec" accept-charset="UTF-8">
+<form  name="submit-to-google-sheet">
    
-    <input type="text" name="Product" placeholder="Plasmid name">
-	<input type="text" name="Description" placeholder="Brief description">
-	<input type="text" name="Assembly_level" placeholder="Assembly level">
+    <input type="text" name="Product" placeholder="Plasmid name" required>
+	<input type="text" name="Description" placeholder="Brief description" required>
+	<input type="text" name="Assembly_level" placeholder="Assembly level" required>
     <label for="inserts">Number of inser(t):</label>
     <input type="number" id="inserts" name="inserts" min="1" max="7">
-	<input type="text" name="Backbone" placeholder="Backbone Acceptor">	
-	<input type="text" name="Backbone_length" placeholder="Backbone Length (bp)">
-	<input type="text" name="Backbone_stock" placeholder="Backbone [Stock] (ng/ul)">	
-  	<input type="text" name="backbone_ng" placeholder="Backbone mass">
-    <input type="text" name="Insert1_name" placeholder="Insert 1 Name">
-    <input type="text" name="Insert1_length" placeholder="Insert 1 Length">
-    <input type="text" name="Insert1_stock" placeholder="Insert 1 Stock (ng/ul)">
-    <input type="text" name="Insert1_ratio" placeholder="Insert 1 I:B Ratio">
+	<input type="text" name="Backbone" placeholder="Backbone Acceptor" required>	
+	<input type="text" name="Backbone_length" placeholder="Backbone Length (bp)" required>
+	<input type="text" name="Backbone_stock" placeholder="Backbone [Stock] (ng/ul)" required>	
+  	<input type="text" name="backbone_ng" placeholder="Backbone mass" required>
+    <input type="text" name="Insert1_name" placeholder="Insert 1 Name" required>
+    <input type="text" name="Insert1_length" placeholder="Insert 1 Length" required>
+    <input type="text" name="Insert1_stock" placeholder="Insert 1 Stock (ng/ul)" required>
+    <input type="text" name="Insert1_ratio" placeholder="Insert 1 I:B Ratio" required>
     <input type="text" name="Insert2_name" placeholder="Insert 2 Name">
     <input type="text" name="Insert2_length" placeholder="Insert 2 Length">
     <input type="text" name="Insert2_stock" placeholder="Insert 2 Stock (ng/ul)"> 
@@ -44,9 +44,22 @@ description: the home page
     <input type="text" name="Insert7_length" placeholder="Insert 7 Length">
     <input type="text" name="Insert7_stock" placeholder="Insert 7 Stock (ng/ul)">
     <input type="text" name="Insert7_ratio" placeholder="Insert 7 I:B Ratio">
-    <input type="submit" value="Assemble"/>
+  	<button type="submit">Assemble</button>
     
 </form>  
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzgb0tGoOzUElKU2nvC7XcTneymL1_sBaNGMDwJEG7jCMyPS0CzqU3tpb1CgfFpT-JOYA/exec'
+  const form = document.forms['submit-to-google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
 
   
 # Assembly Queue
