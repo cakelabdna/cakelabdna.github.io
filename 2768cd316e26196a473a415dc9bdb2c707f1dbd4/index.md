@@ -207,8 +207,9 @@ description: the home page
 
 
   
-# Assembly Details
-<iframe width="1000" height="420" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTWhc3ZkTQasnqLvXL5ais9haD2w1RxJI_au9acA11FKOAKb9akM6gWdu29c85KLnt63rr903oUpDlk/pubhtml?gid=683324272&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+# Assembly Report
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTWhc3ZkTQasnqLvXL5ais9haD2w1RxJI_au9acA11FKOAKb9akM6gWdu29c85KLnt63rr903oUpDlk/pubhtml?widget=true&amp;headers=false"></iframe>
+
 # Assembly History
 <iframe width="1000" height="600" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRGrSl_Dh8BnqAPCtToCj-RWnE3h5z8GubHpB_kGyVxtgLD7cYqmFJc3aYs80663PxQmnjvR2DbF39x/pubhtml?gid=0&amp;single=true&amp;AllowTyping=True;widget=true&amp;headers=false"></iframe>
 
