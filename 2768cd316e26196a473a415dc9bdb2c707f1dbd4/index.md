@@ -13,6 +13,10 @@ description: the home page
 	
 	<input type="text" name="Assembly_level" placeholder="Assembly level">
 	
+    <label for="inserts">Number of inser(t):</label>
+    
+    <input type="number" id="inserts" name="inserts" min="1" max="7">
+	
 	<input type="text" name="Backbone" placeholder="Backbone Acceptor">	
 	
 	
