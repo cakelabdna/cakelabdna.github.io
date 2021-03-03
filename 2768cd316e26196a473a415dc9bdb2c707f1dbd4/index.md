@@ -24,7 +24,7 @@ description: the home page
 		
 	<input type="text" name="Backbone_stock" placeholder="Backbone [Stock] (ng/ul)">	
 	
-  	<input type="text" name="backbone_ng" placeholder="Backbone dilution">
+  	<input type="text" name="backbone_ng" placeholder="Backbone mass">
    	
     <input type="text" name="Insert1_name" placeholder="Insert 1 Name">
     
