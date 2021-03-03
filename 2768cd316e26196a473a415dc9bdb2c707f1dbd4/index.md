@@ -168,7 +168,8 @@ description: the home page
  	 <option value="20">20</option>
  	 <option value="Custom"></option>
 	</select>	    
-    <button type="submit">ASSEMBLE</button>
+    <button type="submit" onClick="window.location.href=window.location.href">Submit</button>
+
 </form>  
 
 
