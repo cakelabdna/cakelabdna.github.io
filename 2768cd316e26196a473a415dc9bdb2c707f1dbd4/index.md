@@ -4,8 +4,19 @@ description: the home page
 ---
 
 # CyanoGate Calculator  
+
+<script src="https://wzrd.in/standalone/formdata-polyfill"></script>
+<script src="https://wzrd.in/standalone/promise-polyfill@latest"></script>
+<script src="https://wzrd.in/standalone/whatwg-fetch@latest"></script>
+
+<script>
+  const scriptURL = 'https://cakelabdna.github.io/2768cd316e26196a473a415dc9bdb2c707f1dbd4/index.html'
+  const form = document.forms['submit-to-google-sheet']
+  ...
+</script>
+
   
-<form  name="submit-to-google-sheet" action="cakelabdna.github.io/2768cd316e26196a473a415dc9bdb2c707f1dbd4/index.html">
+<form  name="submit-to-google-sheet" action="https://cakelabdna.github.io/2768cd316e26196a473a415dc9bdb2c707f1dbd4/index.html">
    
     <input type="text" name="Product" placeholder="Assembly name" required>
 	<input type="text" name="Description" placeholder="Brief description" required>
