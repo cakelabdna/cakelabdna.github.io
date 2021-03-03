@@ -36,7 +36,12 @@ description: the home page
     <input type="text" name="Insert1_name" placeholder="Insert 1 Name" required>
     <input type="text" name="Insert1_length" placeholder="Insert 1 Length" required>
     <input type="text" name="Insert1_stock" placeholder="Insert 1 Stock (ng/ul)" required>
-    <input type="text" name="Insert1_ratio" placeholder="I:B Ratio" required>
+    <select name="Insert1_ratio" id="Insert1_ratio" placeholder="Insert1:Backbone Ratio" required>
+ 	 <option value="2">2</option>
+  	 <option value="10">10</option>
+ 	 <option value="20">20</option>
+ 	 <option value="Custom"></option>
+	</select>	
     <input type="text" name="Insert2_name" placeholder="Insert 2 Name">
     <input type="text" name="Insert2_length" placeholder="Insert 2 Length">
     <input type="text" name="Insert2_stock" placeholder="Insert 2 Stock (ng/ul)"> 
