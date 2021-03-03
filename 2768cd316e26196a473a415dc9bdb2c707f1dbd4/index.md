@@ -36,7 +36,8 @@ description: the home page
     <input type="text" name="Insert1_name" placeholder="Insert 1 Name" required>
     <input type="text" name="Insert1_length" placeholder="Insert 1 Length" required>
     <input type="text" name="Insert1_stock" placeholder="Insert 1 Stock (ng/ul)" required>
-    <select name="Insert1_ratio" id="Insert1_ratio" placeholder="Insert1:Backbone Ratio" required>
+    <label for="Insert1_ratio">Insert1:Backbone Ratio</label>
+    <select name="Insert1_ratio" id="Insert1_ratio">
  	 <option value="2">2</option>
   	 <option value="10">10</option>
  	 <option value="20">20</option>
@@ -45,28 +46,63 @@ description: the home page
     <input type="text" name="Insert2_name" placeholder="Insert 2 Name">
     <input type="text" name="Insert2_length" placeholder="Insert 2 Length">
     <input type="text" name="Insert2_stock" placeholder="Insert 2 Stock (ng/ul)"> 
-    <input type="text" name="Insert2_ratio" placeholder="I:B Ratio">
-    <input type="text" name="Insert3_name" placeholder="Insert 3 Name">
+    <label for="Insert2_ratio">Insert2:Backbone Ratio</label>
+    <select name="Insert2_ratio" id="Insert2_ratio">
+ 	 <option value="2">2</option>
+  	 <option value="10">10</option>
+ 	 <option value="20">20</option>
+ 	 <option value="Custom"></option>
+	</select>	    <input type="text" name="Insert3_name" placeholder="Insert 3 Name">
     <input type="text" name="Insert3_length" placeholder="Insert 3 Length">
     <input type="text" name="Insert3_stock" placeholder="Insert 3 Stock (ng/ul)">
-    <input type="text" name="Insert3_ratio" placeholder="I:B Ratio">
-    <input type="text" name="Insert4_name" placeholder="Insert 4 Name">
+    <label for="Insert3_ratio">Insert3:Backbone Ratio</label>
+    <select name="Insert3_ratio" id="Insert3_ratio">
+ 	 <option value="2">2</option>
+  	 <option value="10">10</option>
+ 	 <option value="20">20</option>
+ 	 <option value="Custom"></option>
+	</select>	    
+	<input type="text" name="Insert4_name" placeholder="Insert 4 Name">
     <input type="text" name="Insert4_length" placeholder="Insert 4 Length">
     <input type="text" name="Insert4_stock" placeholder="Insert 4 Stock (ng/ul)">
-    <input type="text" name="Insert4_ratio" placeholder="I:B Ratio"> 
-    <input type="text" name="Insert5_name" placeholder="Insert 5 Name">
+    <label for="Insert4_ratio">Insert4:Backbone Ratio</label>
+    <select name="Insert4_ratio" id="Insert4_ratio">
+ 	 <option value="2">2</option>
+  	 <option value="10">10</option>
+ 	 <option value="20">20</option>
+ 	 <option value="Custom"></option>
+	</select>	
+	<input type="text" name="Insert5_name" placeholder="Insert 5 Name">
     <input type="text" name="Insert5_length" placeholder="Insert 5 Length">
     <input type="text" name="Insert5_stock" placeholder="Insert 5 Stock (ng/ul)">
-    <input type="text" name="Insert5_ratio" placeholder="Insert 5 I:B Ratio">
-    <input type="text" name="Insert6_name" placeholder="Insert 6 Name">
+    <label for="Insert5_ratio">Insert5:Backbone Ratio</label>
+    <select name="Insert5_ratio" id="Insert5_ratio">
+ 	 <option value="2">2</option>
+  	 <option value="10">10</option>
+ 	 <option value="20">20</option>
+ 	 <option value="Custom"></option>
+	</select>	
+	<input type="text" name="Insert6_name" placeholder="Insert 6 Name">
     <input type="text" name="Insert6_length" placeholder="Insert 6 Length">
     <input type="text" name="Insert6_stock" placeholder="Insert 6 Stock (ng/ul)">
-    <input type="text" name="Insert6_ratio" placeholder="Insert 6 I:B Ratio">
-    <input type="text" name="Insert7_name" placeholder="Insert 7 Name">
+    <label for="Insert6_ratio">Insert6:Backbone Ratio</label>
+    <select name="Insert6_ratio" id="Insert6_ratio">
+ 	 <option value="2">2</option>
+  	 <option value="10">10</option>
+ 	 <option value="20">20</option>
+ 	 <option value="Custom"></option>
+	</select>	
+	<input type="text" name="Insert7_name" placeholder="Insert 7 Name">
     <input type="text" name="Insert7_length" placeholder="Insert 7 Length">
     <input type="text" name="Insert7_stock" placeholder="Insert 7 Stock (ng/ul)">
-    <input type="text" name="Insert7_ratio" placeholder="Insert 7 I:B Ratio">
-  	<button type="submit">ASSEMBLE</button> 
+    <label for="Insert7_ratio">Insert7:Backbone Ratio</label>
+    <select name="Insert7_ratio" id="Insert7_ratio">
+ 	 <option value="2">2</option>
+  	 <option value="10">10</option>
+ 	 <option value="20">20</option>
+ 	 <option value="Custom"></option>
+	</select>	
+	<button type="submit">ASSEMBLE</button> 
     
 </form>  
 
