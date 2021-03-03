@@ -10,7 +10,7 @@ description: the home page
     <input type="text" name="Product" placeholder="Assembly name" required>
 	<input type="text" name="Description" placeholder="Brief description" required>
 	<label for="Assembly_level">Assembly level</label>
-	<select name="Assembly_level id="Assembly_level">
+	<select name="Assembly_level" id="Assembly_level">
  	 <option value="Level 0">Level 0</option>
   	 <option value="Level 1">Level 1</option>
  	 <option value="Level T">Level T</option>
