@@ -5,18 +5,14 @@ description: the home page
 
 # CyanoGate Calculator  
 
-<script src="https://wzrd.in/standalone/formdata-polyfill"></script>
-<script src="https://wzrd.in/standalone/promise-polyfill@latest"></script>
-<script src="https://wzrd.in/standalone/whatwg-fetch@latest"></script>
-
 <script>
-  const scriptURL = 'https://cakelabdna.github.io/2768cd316e26196a473a415dc9bdb2c707f1dbd4/index.html'
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzgb0tGoOzUElKU2nvC7XcTneymL1_sBaNGMDwJEG7jCMyPS0CzqU3tpb1CgfFpT-JOYA/exec'
   const form = document.forms['submit-to-google-sheet']
   ...
 </script>
 
   
-<form  name="submit-to-google-sheet" action="https://script.google.com/macros/s/AKfycbzgb0tGoOzUElKU2nvC7XcTneymL1_sBaNGMDwJEG7jCMyPS0CzqU3tpb1CgfFpT-JOYA/exec">
+<form  name="submit-to-google-sheet">
    
     <input type="text" name="Product" placeholder="Assembly name" required>
     
@@ -168,7 +164,7 @@ description: the home page
  	 <option value="20">20</option>
  	 <option value="Custom"></option>
 	</select>	    
-    <button type="submit" onClick="window.location.href=window.location.href">Submit</button>
+    <button type="submit" onClick="window.location.href=window.location.href">Submit and Refresh</button>
 
 </form>  
 
