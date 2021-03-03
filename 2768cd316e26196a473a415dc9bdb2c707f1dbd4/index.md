@@ -5,7 +5,7 @@ description: the home page
 
 # CyanoGate Calculator  
   
-<form  id="form" method="get" action="https://script.google.com/macros/s/AKfycbyoags5Uf3UVXcqxo6oNFS_lsGXHrm3MwlMEkmpUT__qoQO8zbEf_fVNt-dkucCJhvQ/exec" accept-charset="UTF-8">
+<form  id="form" method="get" action="https://script.google.com/macros/s/AKfycbzgb0tGoOzUElKU2nvC7XcTneymL1_sBaNGMDwJEG7jCMyPS0CzqU3tpb1CgfFpT-JOYA/exec" accept-charset="UTF-8">
    
     <input type="text" name="Product" placeholder="Plasmid name">
     
