@@ -164,7 +164,7 @@ description: the home page
  	 <option value="20">20</option>
  	 <option value="Custom"></option>
 	</select>	    
-    <button type="submit" onClick="window.location.href=window.location.href">Submit and Refresh</button>
+    <button type="submit" onclick="location.href = 'cakelabdna.github.io;" id="myButton">Assemble</button>
 
 </form>  
 
