@@ -5,9 +5,9 @@ description: the home page
 
 # CyanoGate Calculator  
   
-<form  name="submit-to-google-sheet">
+<form  name="submit-to-google-sheet" action="https://cakelabdna.github.io/2768cd316e26196a473a415dc9bdb2c707f1dbd4/index.html">
    
-    <input type="text" name="Product" placeholder="Plasmid name" required>
+    <input type="text" name="Product" placeholder="Assembly name" required>
 	<input type="text" name="Description" placeholder="Brief description" required>
 	<input type="text" name="Assembly_level" placeholder="Assembly level" required>
     <label for="inserts">Number of inser(t):</label>
@@ -44,7 +44,7 @@ description: the home page
     <input type="text" name="Insert7_length" placeholder="Insert 7 Length">
     <input type="text" name="Insert7_stock" placeholder="Insert 7 Stock (ng/ul)">
     <input type="text" name="Insert7_ratio" placeholder="Insert 7 I:B Ratio">
-  	<button type="submit">Assemble</button>
+    <input type="submit" value="Assemble" />
     
 </form>  
 
