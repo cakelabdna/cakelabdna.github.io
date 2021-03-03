@@ -19,19 +19,19 @@ description: the home page
     <input type="text" name="Insert1_name" placeholder="Insert 1 Name" required>
     <input type="text" name="Insert1_length" placeholder="Insert 1 Length" required>
     <input type="text" name="Insert1_stock" placeholder="Insert 1 Stock (ng/ul)" required>
-    <input type="text" name="Insert1_ratio" placeholder="Insert 1 I:B Ratio" required>
+    <input type="text" name="Insert1_ratio" placeholder="I:B Ratio" required>
     <input type="text" name="Insert2_name" placeholder="Insert 2 Name">
     <input type="text" name="Insert2_length" placeholder="Insert 2 Length">
     <input type="text" name="Insert2_stock" placeholder="Insert 2 Stock (ng/ul)"> 
-    <input type="text" name="Insert2_ratio" placeholder="Insert 2 I:B Ratio">
+    <input type="text" name="Insert2_ratio" placeholder="I:B Ratio">
     <input type="text" name="Insert3_name" placeholder="Insert 3 Name">
     <input type="text" name="Insert3_length" placeholder="Insert 3 Length">
     <input type="text" name="Insert3_stock" placeholder="Insert 3 Stock (ng/ul)">
-    <input type="text" name="Insert3_ratio" placeholder="Insert 3 I:B Ratio">
+    <input type="text" name="Insert3_ratio" placeholder="I:B Ratio">
     <input type="text" name="Insert4_name" placeholder="Insert 4 Name">
     <input type="text" name="Insert4_length" placeholder="Insert 4 Length">
     <input type="text" name="Insert4_stock" placeholder="Insert 4 Stock (ng/ul)">
-    <input type="text" name="Insert4_ratio" placeholder="Insert 4 I:B Ratio"> 
+    <input type="text" name="Insert4_ratio" placeholder="I:B Ratio"> 
     <input type="text" name="Insert5_name" placeholder="Insert 5 Name">
     <input type="text" name="Insert5_length" placeholder="Insert 5 Length">
     <input type="text" name="Insert5_stock" placeholder="Insert 5 Stock (ng/ul)">
