@@ -48,12 +48,12 @@ description: the home page
     <input type="text" name="Insert1_name" placeholder="Insert 1 Name" required>
     
     <label for="Insert1_length">Length (bp)</label>
-    <input type="number" value="1" id="Insert1_length" name="Insert1_length" min="0" max="10000">
+    <input type="number" value="0" id="Insert1_length" name="Insert1_length" min="0" max="10000">
     
     <label for="Insert1_stock">Stock (ng/ul)</label>
     <input type="number" value="0" id="Insert1_stock" name="Insert1_stock" min="0" max="10000" >
     
-  	<input type="text" value="empty" name="Description1" placeholder="Description">
+  	<input type="text" value ="" name="Description1" placeholder="Description">
 
 	
     <input type="text" name="Insert2_name" placeholder="Insert 2 Name">
@@ -63,7 +63,7 @@ description: the home page
     <label for="Insert1_stock">Stock (ng/ul)</label>
     <input type="number" value="0" id="Insert1_stock" name="Insert1_stock" min="0" max="10000" >
     
-  	<input type="text" name="Description2" placeholder="Description">
+  	<input type="text" value ="" name="Description2" placeholder="Description">
 
 	
 	<input type="text" name="Insert3_name" placeholder="Insert 3 Name">
