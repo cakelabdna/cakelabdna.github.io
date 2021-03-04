@@ -93,7 +93,6 @@ description: the home page
 
 	
 	
-	
 	<input type="text" name="Insert5_name" placeholder="Insert 5 Name">
 	
     <label for="Insert5_length">Length (bp)</label>
@@ -115,10 +114,6 @@ description: the home page
     
   	<input type="text" name="Description6" placeholder="Description">
 
-	
-	
-	
-	
 	<input type="text" name="Insert7_name" placeholder="Insert 7 Name">
 	
     <label for="Insert7_length">Length (bp)</label>
@@ -131,7 +126,6 @@ description: the home page
 
 
 	<button onclick="window.location.href='https://cakelabdna.github.io/2768cd316e26196a473a415dc9bdb2c707f1dbd4/results.html'">Assemble</button>
-
 
 </form>  
 
@@ -168,8 +162,6 @@ description: the home page
       }, 500)
     }
 </script>
-
-
 
 # Output
 
