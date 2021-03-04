@@ -29,10 +29,6 @@ description: the home page
 	
     <label for="inserts">How many inserts?</label>
     <input type="number" id="inserts" name="inserts" min="1" max="7">
-    
-	<input type="text" name="Backbone" placeholder="Backbone Acceptor" >	
-		
-	<input type="text" name="Backbone_stock" placeholder="Backbone [Stock] (ng/ul)" >	
 	
 	<label for="Backbone_length">Backbone length (bp)</label>
     <input type="number" id="Backbone_length" name="Backbone_length" min="0" max="10000">
