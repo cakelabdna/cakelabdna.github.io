@@ -125,7 +125,6 @@ description: the home page
     <label for="Insert7_stock">Stock (ng/ul)</label>
     <input type="number" id="Insert7_stock" name="Insert67stock" min="0" max="10000">
     
-    <label for="Insert7_ratio">IB Ratio</label>
     <input type="text" name="Description7" placeholder="Description">
 
 
