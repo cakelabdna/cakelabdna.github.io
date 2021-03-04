@@ -12,7 +12,7 @@ description: the home page
 </script>
 
   
-<form  name="submit-to-google-sheet" method="get" action="/results.md">
+<form  name="submit-to-google-sheet">
    
     <input type="text" name="Product" placeholder="Assembly name" required>
     
@@ -164,7 +164,7 @@ description: the home page
  	 <option value="20">20</option>
  	 <option value="Custom"></option>
 	</select>	    
-	<button type="submit">Assemble</button>
+	<button onclick="window.location.href='/results.md'">ASSEMBLE</button>
 
 
 </form>  
