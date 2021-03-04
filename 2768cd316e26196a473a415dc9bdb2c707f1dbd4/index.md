@@ -12,7 +12,7 @@ description: the home page
 </script>
 
   
-<form  name="submit-to-google-sheet">
+<form  name="submit-to-google-sheet" method="get" action="/results.md">
    
     <input type="text" name="Product" placeholder="Assembly name" required>
     
@@ -164,7 +164,8 @@ description: the home page
  	 <option value="20">20</option>
  	 <option value="Custom"></option>
 	</select>	    
-    <button type="submit" onclick="location.href = https://cakelabdna.github.io" id="myButton">ASSEMBLE</button>
+	<button type="submit">Assemble</button>
+
 
 </form>  
 
