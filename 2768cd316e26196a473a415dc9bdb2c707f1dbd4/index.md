@@ -27,14 +27,20 @@ description: the home page
  	 <option value="Custom">Custom</option>
 	</select>
 	
-    <label for="inserts">Number of inserts:</label>
+    <label for="inserts">How many inserts?</label>
     <input type="number" id="inserts" name="inserts" min="1" max="7">
     
 	<input type="text" name="Backbone" placeholder="Backbone Acceptor" >	
-	
-	<input type="text" name="Backbone_length" placeholder="Backbone Length (bp)" >
-	
+		
 	<input type="text" name="Backbone_stock" placeholder="Backbone [Stock] (ng/ul)" >	
+	
+	<label for="Backbone_length">Backbone length (bp)</label>
+    <input type="number" id="Backbone_length" name="Backbone_length" min="0" max="10000">
+    
+    <label for="Backbone_stock">Backbone stock (ng/ul)</label>
+    <input type="number" id="Backbone_stock" name="Backbone_stock" min="0" max="10000" >
+    
+    
 	
   	<label for="backbone_ng">Backbone mass (ng)</label>
     <select name="backbone_ng" id="backbone_ng" required>
@@ -46,13 +52,13 @@ description: the home page
 	   	
     <input type="text" name="Insert1_name" placeholder="Insert 1 Name" >
     
-    <label for="Insert1_length">Insert 1 Length (bp)</label>
+    <label for="Insert1_length">Length (bp)</label>
     <input type="number" id="Insert1_length" name="Insert1_length" min="0" max="10000">
     
-    <label for="Insert1_stock">Insert 1 Stock (ng/ul)</label>
+    <label for="Insert1_stock">Stock (ng/ul)</label>
     <input type="number" id="Insert1_stock" name="Insert1_stock" min="0" max="10000" >
     
-    <label for="Insert1_ratio">I1/B Ratio</label>
+    <label for="Insert1_ratio">IB Ratio</label>
     <select name="Insert1_ratio" id="Insert1_ratio">
  	 <option value="2">2</option>
   	 <option value="10">10</option>
@@ -62,12 +68,12 @@ description: the home page
 	
     <input type="text" name="Insert2_name" placeholder="Insert 2 Name">
  
-  	<label for="Insert2_length">Insert 2 Length (bp)</label>
+  	<label for="Insert2_length">Length (bp)</label>
     <input type="number" id="Insert2_length" name="Insert2_length" min="0" max="10000" >
-    <label for="Insert1_stock">Insert 1 Stock (ng/ul)</label>
+    <label for="Insert1_stock">Stock (ng/ul)</label>
     <input type="number" id="Insert1_stock" name="Insert1_stock" min="0" max="10000" >
     
-    <label for="Insert2_ratio">I2/B Ratio</label>
+    <label for="Insert2_ratio">IB Ratio</label>
     <select name="Insert2_ratio" id="Insert2_ratio">
  	 <option value="2">2</option>
   	 <option value="10">10</option>
@@ -77,13 +83,13 @@ description: the home page
 	
 	<input type="text" name="Insert3_name" placeholder="Insert 3 Name">
 	
- 	<label for="Insert3_length">Insert 3 Length (bp)</label>
+ 	<label for="Insert3_length">Length (bp)</label>
     <input type="number" id="Insert3_length" name="Insert3_length" min="0" max="10000" >
     
-    <label for="Insert3_stock">Insert 3 Stock (ng/ul)</label>
+    <label for="Insert3_stock">Stock (ng/ul)</label>
     <input type="number" id="Insert3_stock" name="Insert3_stock" min="0" max="10000">
     
-    <label for="Insert3_ratio">I3/B Ratio</label>
+    <label for="Insert3_ratio">IB Ratio</label>
     <select name="Insert3_ratio" id="Insert3_ratio">
  	 <option value="2">2</option>
   	 <option value="10">10</option>
@@ -94,13 +100,13 @@ description: the home page
 	
 	<input type="text" name="Insert4_name" placeholder="Insert 4 Name">
 	
-    <label for="Insert4_length">Insert 4 Length (bp)</label>
+    <label for="Insert4_length">Length (bp)</label>
     <input type="number" id="Insert4_length" name="Insert4_length" min="0" max="10000">
     
-    <label for="Insert4_stock">Insert 4 Stock (ng/ul)</label>
+    <label for="Insert4_stock">Stock (ng/ul)</label>
     <input type="number" id="Insert4_stock" name="Insert4_stock" min="0" max="10000">
     
-    <label for="Insert4_ratio">I4/B Ratio</label>
+    <label for="Insert4_ratio">IB Ratio</label>
     <select name="Insert4_ratio" id="Insert4_ratio">
  	 <option value="2">2</option>
   	 <option value="10">10</option>
@@ -113,13 +119,13 @@ description: the home page
 	
 	<input type="text" name="Insert5_name" placeholder="Insert 5 Name">
 	
-    <label for="Insert5_length">Insert 5 Length (bp)</label>
+    <label for="Insert5_length">Length (bp)</label>
     <input type="number" id="Insert5_length" name="Insert5_length" min="0" max="10000" >
     
-    <label for="Insert5_stock">Insert 5 Stock (ng/ul)</label>
+    <label for="Insert5_stock">Stock (ng/ul)</label>
     <input type="number" id="Insert5_stock" name="Insert5_stock" min="0" max="10000">
     
-    <label for="Insert5_ratio">I5/B Ratio</label>
+    <label for="Insert5_ratio">IB Ratio</label>
     <select name="Insert5_ratio" id="Insert5_ratio">
  	 <option value="2">2</option>
   	 <option value="10">10</option>
@@ -131,13 +137,13 @@ description: the home page
 	
 	<input type="text" name="Insert6_name" placeholder="Insert 6 Name">
 	
-   	<label for="Insert6_length">Insert 6 Length (bp)</label>
+   	<label for="Insert6_length">Length (bp)</label>
     <input type="number" id="Insert6_length" name="Insert6_length" min="0" max="10000">
     
-    <label for="Insert6_stock">Insert 6 Stock (ng/ul)</label>
+    <label for="Insert6_stock">Stock (ng/ul)</label>
     <input type="number" id="Insert6_stock" name="Insert6_stock" min="0" max="10000">
     
-    <label for="Insert6_ratio">I6/B Ratio</label>
+    <label for="Insert6_ratio">IB Ratio</label>
     <select name="Insert6_ratio" id="Insert6_ratio">
  	 <option value="2">2</option>
   	 <option value="10">10</option>
@@ -151,13 +157,13 @@ description: the home page
 	
 	<input type="text" name="Insert7_name" placeholder="Insert 7 Name">
 	
-    <label for="Insert7_length">Insert 7 Length (bp)</label>
+    <label for="Insert7_length">Length (bp)</label>
     <input type="number" id="Insert7_length" name="Insert7_length" min="0" max="10000">
     
-    <label for="Insert7_stock">Insert 7 Stock (ng/ul)</label>
+    <label for="Insert7_stock">Stock (ng/ul)</label>
     <input type="number" id="Insert7_stock" name="Insert67stock" min="0" max="10000">
     
-    <label for="Insert7_ratio">I7/B Ratio</label>
+    <label for="Insert7_ratio">IB Ratio</label>
     <select name="Insert7_ratio" id="Insert7_ratio">
  	 <option value="2">2</option>
   	 <option value="10">10</option>
