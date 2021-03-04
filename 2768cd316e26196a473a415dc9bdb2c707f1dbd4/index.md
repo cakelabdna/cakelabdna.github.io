@@ -53,7 +53,7 @@ description: the home page
     <label for="Insert1_stock">Stock (ng/ul)</label>
     <input type="number" id="Insert1_stock" name="Insert1_stock" min="0" max="10000" >
     
-  	<input type="text" name="Description1" placeholder="Description">
+  	<input type="text" value="empty" name="Description1" placeholder="Description">
 
 	
     <input type="text" name="Insert2_name" placeholder="Insert 2 Name">
