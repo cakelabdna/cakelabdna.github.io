@@ -164,7 +164,7 @@ description: the home page
  	 <option value="20">20</option>
  	 <option value="Custom"></option>
 	</select>	    
-	<button onclick="window.location.href='/results.md'">ASSEMBLE</button>
+	<button onclick="window.location.href='/results.html'">Calculate</button>
 
 
 </form>  
