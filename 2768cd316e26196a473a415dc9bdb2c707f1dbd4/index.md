@@ -10,9 +10,6 @@ description: the home page
   const form = document.forms['submit-to-google-sheet']
   ...
 </script>
-
-
-<body onLoad="setDefaults();">
   
 <form  name="submit-to-google-sheet">
    
@@ -125,7 +122,7 @@ description: the home page
     <input type="text" name="Description7" placeholder="Description">
 
 
-	<button onclick="window.location.href='https://cakelabdna.github.io/2768cd316e26196a473a415dc9bdb2c707f1dbd4/results.html'">Assemble</button>
+	<button onclick="window.location.href='https://cakelabdna.github.io/2768cd316e26196a473a415dc9bdb2c707f1dbd4/results.html'">ASSEMBLE</button>
 
 </form>  
 
