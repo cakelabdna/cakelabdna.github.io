@@ -3,7 +3,7 @@ title: home
 description: the home page
 ---
 
-# CyanoGate Calculator  
+# GoldenGate Calculator  
 
 <script>
   const scriptURL = 'https://script.google.com/macros/s/AKfycbzgb0tGoOzUElKU2nvC7XcTneymL1_sBaNGMDwJEG7jCMyPS0CzqU3tpb1CgfFpT-JOYA/exec'
@@ -207,9 +207,9 @@ description: the home page
 </script>
 
 
-  
-# Assembly Report
-<iframe width="1000" height="600" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTWhc3ZkTQasnqLvXL5ais9haD2w1RxJI_au9acA11FKOAKb9akM6gWdu29c85KLnt63rr903oUpDlk/pubhtml?widget=true&amp;headers=false"></iframe>
+
+# [Assembly Report](https://docs.google.com/spreadsheets/d/12G5TwARG7o5OzgPICj9YPiSczuWmx1yngZYTKdHQzaY/htmlembed/sheet?gid=0&range=A1:AK100)    
+<iframe width="1000" height="420" src="https://docs.google.com/spreadsheets/d/12G5TwARG7o5OzgPICj9YPiSczuWmx1yngZYTKdHQzaY/htmlembed/sheet?gid=0&range=A1:AK100"></iframe>
 
 # Assembly History
 <iframe width="1000" height="600" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRGrSl_Dh8BnqAPCtToCj-RWnE3h5z8GubHpB_kGyVxtgLD7cYqmFJc3aYs80663PxQmnjvR2DbF39x/pubhtml?gid=0&amp;single=true&amp;AllowTyping=True;widget=true&amp;headers=false"></iframe>
