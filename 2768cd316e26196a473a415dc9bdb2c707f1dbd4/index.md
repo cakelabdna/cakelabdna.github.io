@@ -54,13 +54,8 @@ description: the home page
     <label for="Insert1_stock">Stock (ng/ul)</label>
     <input type="number" id="Insert1_stock" name="Insert1_stock" min="0" max="10000" >
     
-    <label for="Insert1_ratio">IB Ratio</label>
-    <select name="Insert1_ratio" id="Insert1_ratio">
- 	 <option value="2">2</option>
-  	 <option value="10">10</option>
- 	 <option value="20">20</option>
- 	 <option value="Custom"></option>
-	</select>	
+  	<input type="text" name="Description1" placeholder="Description">
+
 	
     <input type="text" name="Insert2_name" placeholder="Insert 2 Name">
  
@@ -69,13 +64,8 @@ description: the home page
     <label for="Insert1_stock">Stock (ng/ul)</label>
     <input type="number" id="Insert1_stock" name="Insert1_stock" min="0" max="10000" >
     
-    <label for="Insert2_ratio">IB Ratio</label>
-    <select name="Insert2_ratio" id="Insert2_ratio">
- 	 <option value="2">2</option>
-  	 <option value="10">10</option>
- 	 <option value="20">20</option>
- 	 <option value="Custom"></option>
-	</select>	    
+  	<input type="text" name="Description2" placeholder="Description">
+
 	
 	<input type="text" name="Insert3_name" placeholder="Insert 3 Name">
 	
@@ -85,13 +75,8 @@ description: the home page
     <label for="Insert3_stock">Stock (ng/ul)</label>
     <input type="number" id="Insert3_stock" name="Insert3_stock" min="0" max="10000">
     
-    <label for="Insert3_ratio">IB Ratio</label>
-    <select name="Insert3_ratio" id="Insert3_ratio">
- 	 <option value="2">2</option>
-  	 <option value="10">10</option>
- 	 <option value="20">20</option>
- 	 <option value="Custom"></option>
-	</select>	    
+    <input type="text" name="Description3" placeholder="Description">
+
 	
 	
 	<input type="text" name="Insert4_name" placeholder="Insert 4 Name">
@@ -102,14 +87,8 @@ description: the home page
     <label for="Insert4_stock">Stock (ng/ul)</label>
     <input type="number" id="Insert4_stock" name="Insert4_stock" min="0" max="10000">
     
-    <label for="Insert4_ratio">IB Ratio</label>
-    <select name="Insert4_ratio" id="Insert4_ratio">
- 	 <option value="2">2</option>
-  	 <option value="10">10</option>
- 	 <option value="20">20</option>
- 	 <option value="Custom"></option>
-	</select>	
-	
+    <input type="text" name="Description4" placeholder="Description">
+
 	
 	
 	
@@ -121,15 +100,8 @@ description: the home page
     <label for="Insert5_stock">Stock (ng/ul)</label>
     <input type="number" id="Insert5_stock" name="Insert5_stock" min="0" max="10000">
     
-    <label for="Insert5_ratio">IB Ratio</label>
-    <select name="Insert5_ratio" id="Insert5_ratio">
- 	 <option value="2">2</option>
-  	 <option value="10">10</option>
- 	 <option value="20">20</option>
- 	 <option value="Custom"></option>
-	</select>	
-	
-	
+  	<input type="text" name="Description5" placeholder="Description">
+
 	
 	<input type="text" name="Insert6_name" placeholder="Insert 6 Name">
 	
@@ -139,14 +111,8 @@ description: the home page
     <label for="Insert6_stock">Stock (ng/ul)</label>
     <input type="number" id="Insert6_stock" name="Insert6_stock" min="0" max="10000">
     
-    <label for="Insert6_ratio">IB Ratio</label>
-    <select name="Insert6_ratio" id="Insert6_ratio">
- 	 <option value="2">2</option>
-  	 <option value="10">10</option>
- 	 <option value="20">20</option>
- 	 <option value="Custom"></option>
-	</select>	
-	
+  	<input type="text" name="Description6" placeholder="Description">
+
 	
 	
 	
@@ -160,12 +126,9 @@ description: the home page
     <input type="number" id="Insert7_stock" name="Insert67stock" min="0" max="10000">
     
     <label for="Insert7_ratio">IB Ratio</label>
-    <select name="Insert7_ratio" id="Insert7_ratio">
- 	 <option value="2">2</option>
-  	 <option value="10">10</option>
- 	 <option value="20">20</option>
- 	 <option value="Custom"></option>
-	</select>	    
+    <input type="text" name="Description7" placeholder="Description">
+
+
 	<button onclick="window.location.href='https://cakelabdna.github.io/2768cd316e26196a473a415dc9bdb2c707f1dbd4/results.html'">Assemble</button>
 
 
