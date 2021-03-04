@@ -71,7 +71,7 @@ description: the home page
 	
 	<input type="text" name="Insert3_name" placeholder="Insert 3 Name">
 	
- 	<label for="Insert3_length">Length default (bp)</label>
+ 	<label for="Insert3_length">Length (bp)</label>
     <input type="number" id="Insert3_length" name="Insert3_length" min="0" max="10000" >
     
     <label for="Insert3_stock">Stock (ng/ul)</label>
@@ -135,15 +135,6 @@ description: the home page
 
 </form>  
 
-
-
-<script>
-function setDefaults(){
-    if(document.form.Insert3_length.value==""){
-        document.form.myTextBox.value = 0;
-    }
-}
-</script>
 
 <script>
   const scriptURL = 'https://script.google.com/macros/s/AKfycbzgb0tGoOzUElKU2nvC7XcTneymL1_sBaNGMDwJEG7jCMyPS0CzqU3tpb1CgfFpT-JOYA/exec'
