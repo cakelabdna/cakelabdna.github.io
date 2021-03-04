@@ -164,7 +164,7 @@ description: the home page
  	 <option value="20">20</option>
  	 <option value="Custom"></option>
 	</select>	    
-	<button onclick="window.location.href='/results.html'">Calculate</button>
+	<button onclick="window.location.href='https://cakelabdna.github.io/2768cd316e26196a473a415dc9bdb2c707f1dbd4/results.html'">Assemble</button>
 
 
 </form>  
