@@ -45,13 +45,13 @@ description: the home page
  	 <option value="Custom"></option>
 	</select>	 
 	   	
-    <input type="text" name="Insert1_name" placeholder="Insert 1 Name" >
+    <input type="text" name="Insert1_name" placeholder="Insert 1 Name" required>
     
     <label for="Insert1_length">Length (bp)</label>
-    <input type="number" id="Insert1_length" name="Insert1_length" min="0" max="10000">
+    <input type="number" value="1" id="Insert1_length" name="Insert1_length" min="0" max="10000">
     
     <label for="Insert1_stock">Stock (ng/ul)</label>
-    <input type="number" id="Insert1_stock" name="Insert1_stock" min="0" max="10000" >
+    <input type="number" value="0" id="Insert1_stock" name="Insert1_stock" min="0" max="10000" >
     
   	<input type="text" value="empty" name="Description1" placeholder="Description">
 
@@ -59,9 +59,9 @@ description: the home page
     <input type="text" name="Insert2_name" placeholder="Insert 2 Name">
  
   	<label for="Insert2_length">Length (bp)</label>
-    <input type="number" id="Insert2_length" name="Insert2_length" min="0" max="10000" >
+    <input type="number" value="0" id="Insert2_length" name="Insert2_length" min="0" max="10000" >
     <label for="Insert1_stock">Stock (ng/ul)</label>
-    <input type="number" id="Insert1_stock" name="Insert1_stock" min="0" max="10000" >
+    <input type="number" value="0" id="Insert1_stock" name="Insert1_stock" min="0" max="10000" >
     
   	<input type="text" name="Description2" placeholder="Description">
 
@@ -69,10 +69,10 @@ description: the home page
 	<input type="text" name="Insert3_name" placeholder="Insert 3 Name">
 	
  	<label for="Insert3_length">Length (bp)</label>
-    <input type="number" id="Insert3_length" name="Insert3_length" min="0" max="10000" >
+    <input type="number" value="0" id="Insert3_length" name="Insert3_length" min="0" max="10000" >
     
     <label for="Insert3_stock">Stock (ng/ul)</label>
-    <input type="number" id="Insert3_stock" name="Insert3_stock" min="0" max="10000">
+    <input type="number" value="0" id="Insert3_stock" name="Insert3_stock" min="0" max="10000">
     
     <input type="text" name="Description3" placeholder="Description">
 
@@ -81,10 +81,10 @@ description: the home page
 	<input type="text" name="Insert4_name" placeholder="Insert 4 Name">
 	
     <label for="Insert4_length">Length (bp)</label>
-    <input type="number" id="Insert4_length" name="Insert4_length" min="0" max="10000">
+    <input type="number" value="0"  id="Insert4_length" name="Insert4_length" min="0" max="10000">
     
     <label for="Insert4_stock">Stock (ng/ul)</label>
-    <input type="number" id="Insert4_stock" name="Insert4_stock" min="0" max="10000">
+    <input type="number" value="0" id="Insert4_stock" name="Insert4_stock" min="0" max="10000">
     
     <input type="text" name="Description4" placeholder="Description">
 
@@ -93,10 +93,10 @@ description: the home page
 	<input type="text" name="Insert5_name" placeholder="Insert 5 Name">
 	
     <label for="Insert5_length">Length (bp)</label>
-    <input type="number" id="Insert5_length" name="Insert5_length" min="0" max="10000" >
+    <input type="number" value="0" id="Insert5_length" name="Insert5_length" min="0" max="10000" >
     
     <label for="Insert5_stock">Stock (ng/ul)</label>
-    <input type="number" id="Insert5_stock" name="Insert5_stock" min="0" max="10000">
+    <input type="number" value="0"  id="Insert5_stock" name="Insert5_stock" min="0" max="10000">
     
   	<input type="text" name="Description5" placeholder="Description">
 
@@ -104,20 +104,20 @@ description: the home page
 	<input type="text" name="Insert6_name" placeholder="Insert 6 Name">
 	
    	<label for="Insert6_length">Length (bp)</label>
-    <input type="number" id="Insert6_length" name="Insert6_length" min="0" max="10000">
+    <input type="number" value="0" id="Insert6_length" name="Insert6_length" min="0" max="10000">
     
     <label for="Insert6_stock">Stock (ng/ul)</label>
-    <input type="number" id="Insert6_stock" name="Insert6_stock" min="0" max="10000">
+    <input type="number" value="0"  id="Insert6_stock" name="Insert6_stock" min="0" max="10000">
     
   	<input type="text" name="Description6" placeholder="Description">
 
 	<input type="text" name="Insert7_name" placeholder="Insert 7 Name">
 	
     <label for="Insert7_length">Length (bp)</label>
-    <input type="number" id="Insert7_length" name="Insert7_length" min="0" max="10000">
+    <input type="number" value="0" id="Insert7_length" name="Insert7_length" min="0" max="10000">
     
     <label for="Insert7_stock">Stock (ng/ul)</label>
-    <input type="number" id="Insert7_stock" name="Insert67stock" min="0" max="10000">
+    <input type="number" value="0" id="Insert7_stock" name="Insert67stock" min="0" max="10000">
     
     <input type="text" name="Description7" placeholder="Description">
 
