@@ -26,8 +26,28 @@ description: the home page
  	 <option value="Custom">Custom</option>
 	</select>
 	
-    <label for="inserts">How many inserts?</label>
-    <input type="number" id="inserts" name="inserts" min="1" max="7">
+	
+	<label for="Backbone">Acceptor plasmid:</label>
+    <select name="Backbone" id="Backbone" required>
+ 	 <option value="pICH41308">pICH41308 (CDS1)</option>
+ 	 <option value="pICH41331">pICH41331 (HRT)</option>
+ 	 <option value="pICH41295">pICH41295 (5U+Pro)</option>
+ 	 <option value="pICH41276">pICH41276 (3U+Ter)</option>
+ 	 <option value="pICH42012">pICH42012 (Cas12a gRNA)</option>
+ 	 <option value="pICH42009">pICH42009 (Cas9 gRNA)</option>
+ 	 <option value="L1P1">L1P1</option>
+ 	 <option value="L1P2">L1P2</option>
+ 	 <option value="L1P3">L1P3</option>
+ 	 <option value="L1P4">L1P4</option>
+ 	 <option value="L1P5">L1P5</option>
+ 	 <option value="L1P6">L1P6</option>
+ 	 <option value="L1P7">L1P7</option>
+ 	 <option value="pCAT.000">pCAT.000 (pMCQAKI)</option>
+ 	 <option value="pCAT.011">pCAT.011 (pSEVA421-T)</option>
+ 	 <option value="pJMLT.000">pJMLT.000 (pSEVA421-T + sacB)</option>
+ 	 <option value="Custom"></option>
+	</select>	 
+	
 	
 	<label for="Backbone_length">Backbone length (bp)</label>
     <input type="number" id="Backbone_length" name="Backbone_length" min="0" max="10000">
