@@ -3,13 +3,13 @@ title: Results
 description: Assembly Output
 ---
 
-Assembly parameters have been saved. Here you can view assembly report and send assembly project to assembly queue. (Type your name in "creator cell")    
+Assembly parameters have been saved. Here you can view assembly report and send assembly project to assembly queue (Type your name in "creator cell").     
 
 
 
 # [Assembly Report](https://docs.google.com/spreadsheets/d/12G5TwARG7o5OzgPICj9YPiSczuWmx1yngZYTKdHQzaY/edit#gid=683324272&range=A1:J15)    
 
-<iframe  width="1000" height="500" src="https://docs.google.com/spreadsheets/d/12G5TwARG7o5OzgPICj9YPiSczuWmx1yngZYTKdHQzaY/edit?usp=sharing&sheet?gid=2110853524&range=A1:J15"></iframe>  
+<iframe  width="1000" height="500" src="https://docs.google.com/spreadsheets/d/12G5TwARG7o5OzgPICj9YPiSczuWmx1yngZYTKdHQzaY/edit?usp=sharing&gid=2110853524&range=A1:J15&rm=minimal"></iframe>  
 
 # [Assembly History](https://docs.google.com/spreadsheets/d/12G5TwARG7o5OzgPICj9YPiSczuWmx1yngZYTKdHQzaY/htmlembed/sheet?gid=2110853524&range=A1:BS20")       
 
