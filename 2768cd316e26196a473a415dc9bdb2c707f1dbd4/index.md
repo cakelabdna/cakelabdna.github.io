@@ -27,7 +27,7 @@ description: the home page
 	</select>
 	
 	
-	<label for="Backbone">Acceptor plasmid:</label>
+	<label for="Backbone">Acceptor:</label>
     <select name="Backbone" id="Backbone" required>
  	 <option value="pICH41308">pICH41308 (CDS1)</option>
  	 <option value="pICH41331">pICH41331 (HRT)</option>
@@ -42,9 +42,9 @@ description: the home page
  	 <option value="L1P5">L1P5</option>
  	 <option value="L1P6">L1P6</option>
  	 <option value="L1P7">L1P7</option>
- 	 <option value="pCAT.000">pCAT.000 (pMCQAKI)</option>
- 	 <option value="pCAT.011">pCAT.011 (pSEVA421-T)</option>
- 	 <option value="pJMLT.000">pJMLT.000 (pSEVA421-T + sacB)</option>
+ 	 <option value="pCAT.000">pCAT.000</option>
+ 	 <option value="pCAT.011">pCAT.011</option>
+ 	 <option value="pJMLT.000">pJMLT.000 </option>
  	 <option value="Custom"></option>
 	</select>	 
 	
@@ -149,7 +149,7 @@ description: the home page
 # Output
 
 ## [Assembly Report](https://docs.google.com/spreadsheets/d/12G5TwARG7o5OzgPICj9YPiSczuWmx1yngZYTKdHQzaY/edit#gid=683324272&range=A1:J15)    
-<iframe width="1000" height="500" src="https://docs.google.com/spreadsheets/d/12G5TwARG7o5OzgPICj9YPiSczuWmx1yngZYTKdHQzaY/htmlembed/sheet?gid=683324272&range=A1:J15"></iframe>
+<iframe width="1000" height="480" src="https://docs.google.com/spreadsheets/d/12G5TwARG7o5OzgPICj9YPiSczuWmx1yngZYTKdHQzaY/htmlembed/sheet?gid=683324272&range=A1:J15"></iframe>
 
 ## [Assembly History](https://docs.google.com/spreadsheets/d/12G5TwARG7o5OzgPICj9YPiSczuWmx1yngZYTKdHQzaY/edit#gid=2110853524)    
 <iframe width="1000" height="500" src="https://docs.google.com/spreadsheets/d/12G5TwARG7o5OzgPICj9YPiSczuWmx1yngZYTKdHQzaY/htmlembed/sheet?gid=2110853524&range=A1:BS20"></iframe>
