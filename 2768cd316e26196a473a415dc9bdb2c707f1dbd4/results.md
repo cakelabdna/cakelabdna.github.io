@@ -9,7 +9,7 @@ Assembly parameters have been saved. Here you can view assembly report and send 
 
 # [Assembly Report](https://docs.google.com/spreadsheets/d/12G5TwARG7o5OzgPICj9YPiSczuWmx1yngZYTKdHQzaY/edit#gid=683324272&range=A1:J15)    
 
-<iframe  width="1000" height="550" src="https://docs.google.com/spreadsheets/d/12G5TwARG7o5OzgPICj9YPiSczuWmx1yngZYTKdHQzaY/edit?#gid=683324272&range=A1:J15&rm=minimal"></iframe>  
+<iframe width="100%" height="400" src="https://docs.google.com/spreadsheets/d/12G5TwARG7o5OzgPICj9YPiSczuWmx1yngZYTKdHQzaY/edit?#gid=683324272&usp=sharing"></iframe>
 
 
 # [Assembly Queue](https://docs.google.com/spreadsheets/d/12G5TwARG7o5OzgPICj9YPiSczuWmx1yngZYTKdHQzaY/htmlembed/sheet?gid=2110853524&range=A1:CA20")       
