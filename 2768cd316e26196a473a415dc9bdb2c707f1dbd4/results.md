@@ -3,12 +3,12 @@ title: Results
 description: Assembly Output
 ---
 
-Assembly parameters have been logged. Here you can view assembly report and send plasmid to assembly queue (Type your name in "creator cell").     
+Assembly parameters have been saved. Here you can view assembly report and send plasmid to assembly queue (Type your name in "creator cell").     
 
 
 # [Assembly Report](https://docs.google.com/spreadsheets/d/12G5TwARG7o5OzgPICj9YPiSczuWmx1yngZYTKdHQzaY/edit#gid=683324272&range=A1:J15)    
 
-<iframe width="1000" height="700" src="https://docs.google.com/spreadsheets/d/12G5TwARG7o5OzgPICj9YPiSczuWmx1yngZYTKdHQzaY/edit?#gid=68332427&range=A1:J15&usp=sharing&rm=minimal"></iframe>
+<iframe width="1000" height="700" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTWhc3ZkTQasnqLvXL5ais9haD2w1RxJI_au9acA11FKOAKb9akM6gWdu29c85KLnt63rr903oUpDlk/edit?gid=683324272&range=A1:J15&usp=sharing&rm=minimal"></iframe>
 
 
 # [Assembly Queue](https://docs.google.com/spreadsheets/d/12G5TwARG7o5OzgPICj9YPiSczuWmx1yngZYTKdHQzaY/htmlembed/sheet?gid=2110853524&range=A1:CA20")       
