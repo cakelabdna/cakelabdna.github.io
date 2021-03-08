@@ -27,7 +27,7 @@ description: the home page
 	</select>
 	
 	
-	<label for="inserts">Inserts:</label>
+	<label for="inserts">How many inserts?</label>
     <input type="number" id="inserts" name="inserts" min="1" max="7" >
     
 	
