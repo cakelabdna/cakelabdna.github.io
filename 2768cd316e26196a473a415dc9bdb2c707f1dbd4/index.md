@@ -17,7 +17,7 @@ description: the home page
     
 	<input type="text" name="Description" placeholder="Brief description">
 	
-	<label for="Assembly_level">Level</label>
+	<label for="Assembly_level">Assembly level</label>
 	
 	<select name="Assembly_level" id="Assembly_level">
  	 <option value="Level 0">Level 0</option>
