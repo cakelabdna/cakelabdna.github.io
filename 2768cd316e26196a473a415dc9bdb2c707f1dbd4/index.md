@@ -17,7 +17,7 @@ description: the home page
     
 	<input type="text" name="Description" placeholder="Brief description">
 	
-	<label for="Assembly_level">Assembly level</label>
+	<label for="Assembly_level">Level</label>
 	
 	<select name="Assembly_level" id="Assembly_level">
  	 <option value="Level 0">Level 0</option>
@@ -26,6 +26,10 @@ description: the home page
  	 <option value="Custom">Custom</option>
 	</select>
 	
+	
+	<label for="inserts">Inserts:</label>
+    <input type="number" id="inserts" name="inserts" min="1" max="7" >
+    
 	
 	<label for="Backbone">Acceptor:</label>
     <select name="Backbone" id="Backbone" onchange="yesnoCheck(this);" required>
@@ -51,7 +55,7 @@ description: the home page
  	 <option value="pCAT.015">pJMLT.015 </option>
  	 <option value="pAGM4723">pAGM.4723 </option>
  	 <option value="pAGM8031">pAGM.8031 </option>
- 	 <option value="Custom"></option>
+ 	 <option value="Custom">Custom</option>
 	</select>	 
 	
 	
@@ -226,7 +230,7 @@ description: the home page
 <script type="text/javascript">
  	function yesnoCheck(that) {
   	  if (that.value == "Custom") {
-  		alert("check");
+  		alert("Please provide length of backbone acceptor (in bp)");
         document.getElementById("ifYes").style.display = "block";
     	} else {
         document.getElementById("ifYes").style.display = "none";
