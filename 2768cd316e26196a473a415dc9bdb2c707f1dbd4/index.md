@@ -3,7 +3,7 @@ title: home
 description: the home page
 ---
 
-# GoldenGate Calculator  
+# Assembly Calculator  
 
 <script>
   const scriptURL = 'https://script.google.com/macros/s/AKfycbzgb0tGoOzUElKU2nvC7XcTneymL1_sBaNGMDwJEG7jCMyPS0CzqU3tpb1CgfFpT-JOYA/exec'
@@ -92,8 +92,8 @@ description: the home page
  
   	<label for="Insert2_length">Length (bp)</label>
     <input type="number" value="0" id="Insert2_length" name="Insert2_length" min="0" max="10000" >
-    <label for="Insert1_stock">Stock (ng/ul)</label>
-    <input type="number" value="0" id="Insert1_stock" name="Insert1_stock" min="0" max="10000" >
+    <label for="Insert2_stock">Stock (ng/ul)</label>
+    <input type="number" value="0" id="Insert2_stock" name="Insert2_stock" min="0" max="10000" >
     
   	<input type="text" value ="Description 2" name="Description2">
 
