@@ -28,13 +28,15 @@ description: the home page
 	
 	
 	<label for="Backbone">Acceptor:</label>
-    <select name="Backbone" id="Backbone" required>
+    <select name="Backbone" id="Backbone" onchange="yesnoCheck(this);" required>
  	 <option value="pICH41308">pICH41308 (CDS1)</option>
  	 <option value="pICH41331">pICH41331 (HRT)</option>
  	 <option value="pICH41295">pICH41295 (5U+Pro)</option>
  	 <option value="pICH41276">pICH41276 (3U+Ter)</option>
  	 <option value="pICH42012">pICH42012 (Cas12a gRNA)</option>
  	 <option value="pICH42009">pICH42009 (Cas9 gRNA)</option>
+ 	 <option value="pAGM1287">pAGM1287</option>
+ 	 <option value="pAGM1301">pAGM1301</option>
  	 <option value="L1P1">L1P1</option>
  	 <option value="L1P2">L1P2</option>
  	 <option value="L1P3">L1P3</option>
@@ -45,13 +47,19 @@ description: the home page
  	 <option value="pCAT.000">pCAT.000</option>
  	 <option value="pCAT.011">pCAT.011</option>
  	 <option value="pJMLT.000">pJMLT.000 </option>
+ 	 <option value="pJMLT.001">pJMLT.001 </option>
+ 	 <option value="pCAT.015">pJMLT.015 </option>
+ 	 <option value="pAGM4723">pAGM.4723 </option>
+ 	 <option value="pAGM8031">pAGM.8031 </option>
  	 <option value="Custom"></option>
 	</select>	 
 	
 	
+	<div id="ifYes" style="display: none;">
 	<label for="Backbone_length">Backbone length (bp)</label>
     <input type="number" id="Backbone_length" name="Backbone_length" min="0" max="10000">
-    
+    </div>
+
     <label for="Backbone_stock">Backbone stock (ng/ul)</label>
     <input type="number" id="Backbone_stock" name="Backbone_stock" min="0" max="10000" >
     
@@ -215,6 +223,16 @@ description: the home page
     }
 </script>
 
+<script type="text/javascript">
+ 	function yesnoCheck(that) {
+  	  if (that.value == "Custom") {
+  		alert("check");
+        document.getElementById("ifYes").style.display = "block";
+    	} else {
+        document.getElementById("ifYes").style.display = "none";
+   		 }
+		}
+</script>
 
 <script src="http://code.jquery.com/jquery-1.4.2.min.js"></script> <script> var x = document.getElementsByClassName("site-footer-credits"); setTimeout(() => { x[0].remove(); }, 10); </script>
 
