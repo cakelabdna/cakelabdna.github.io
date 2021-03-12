@@ -167,15 +167,15 @@ description: the home page
 <iframe width="1000" height="500" src="https://docs.google.com/spreadsheets/d/12G5TwARG7o5OzgPICj9YPiSczuWmx1yngZYTKdHQzaY/htmlembed/sheet?gid=2110853524&range=A1:CA20"></iframe>
 
 # Validate Assembly History by DNA Sequencing
-<iframe width="1000" height="600" src=""https://docs.google.com/spreadsheets/d/e/2PACX-1vRGrSl_Dh8BnqAPCtToCj-RWnE3h5z8GubHpB_kGyVxtgLD7cYqmFJc3aYs80663PxQmnjvR2DbF39x/pubhtml?widget=false&amp;headers=false"></iframe>
+<iframe width="1000" height="600" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRGrSl_Dh8BnqAPCtToCj-RWnE3h5z8GubHpB_kGyVxtgLD7cYqmFJc3aYs80663PxQmnjvR2DbF39x/pubhtml?gid=1559406252&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
 
 # User-specific DNA libraries
 ## AS
-### ASGate Level 0
+### AS Level 0
 <iframe width="1000" height="400" frameborder="0" scrolling="no" src="https://universityofcambridgecloud-my.sharepoint.com/personal/as2945_cam_ac_uk/_layouts/15/Doc.aspx?sourcedoc={1f4b5bc8-4e9e-4ea3-87ff-2c1e991b61fe}&action=embedview&AllowTyping=True&Item='L0%20Parts'!A1%3AO16&wdHideGridlines=True&wdDownloadButton=True&wdInConfigurator=True"></iframe>
-### ASGate Level 1
+### AS Level 1
 <iframe width="1000" height="454" frameborder="0" scrolling="no" src="https://universityofcambridgecloud-my.sharepoint.com/personal/as2945_cam_ac_uk/_layouts/15/Doc.aspx?sourcedoc={1f4b5bc8-4e9e-4ea3-87ff-2c1e991b61fe}&action=embedview&AllowTyping=True&Item='L1%20Parts'!A1%3AN25&wdHideGridlines=True&wdDownloadButton=True&wdInConfigurator=True"></iframe>
-### ASGate Level T
+### AS Level T
 <iframe width="1000" height="500" frameborder="0" scrolling="no" src="https://universityofcambridgecloud-my.sharepoint.com/personal/as2945_cam_ac_uk/_layouts/15/Doc.aspx?sourcedoc={1f4b5bc8-4e9e-4ea3-87ff-2c1e991b61fe}&action=embedview&AllowTyping=True&Item='LT%20Parts'!A1%3AN30&wdHideGridlines=True&wdDownloadButton=True&wdInConfigurator=True"></iframe>
 
 ## DGK
