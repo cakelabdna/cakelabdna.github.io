@@ -1,6 +1,6 @@
 ---
-title: home
-description: the home page
+title: CyanoGate 2.0
+description: An expanded MoClo Toolbox for Synthetic Biology in Cyanobacteria
 ---
 
 # Assembly Calculator  
@@ -163,35 +163,213 @@ description: the home page
 # [Assembly Report](https://docs.google.com/spreadsheets/d/12G5TwARG7o5OzgPICj9YPiSczuWmx1yngZYTKdHQzaY/edit#gid=683324272&range=A1:J15)    
 <iframe width="1000" height="480" src="https://docs.google.com/spreadsheets/d/12G5TwARG7o5OzgPICj9YPiSczuWmx1yngZYTKdHQzaY/htmlembed/sheet?gid=683324272&range=A1:J15"></iframe>
 
-# [Assembly Queue](https://docs.google.com/spreadsheets/d/12G5TwARG7o5OzgPICj9YPiSczuWmx1yngZYTKdHQzaY/edit#gid=2110853524)    
-<iframe width="1000" height="500" src="https://docs.google.com/spreadsheets/d/12G5TwARG7o5OzgPICj9YPiSczuWmx1yngZYTKdHQzaY/htmlembed/sheet?gid=2110853524&range=A1:CA20"></iframe>
-
-# Validate Assembly History by DNA Sequencing
-<iframe width="1000" height="600" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRGrSl_Dh8BnqAPCtToCj-RWnE3h5z8GubHpB_kGyVxtgLD7cYqmFJc3aYs80663PxQmnjvR2DbF39x/pubhtml?gid=1559406252&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
-
-# User-specific DNA libraries
-## AS
-### AS Level 0
-<iframe width="1000" height="400" frameborder="0" scrolling="no" src="https://universityofcambridgecloud-my.sharepoint.com/personal/as2945_cam_ac_uk/_layouts/15/Doc.aspx?sourcedoc={1f4b5bc8-4e9e-4ea3-87ff-2c1e991b61fe}&action=embedview&AllowTyping=True&Item='L0%20Parts'!A1%3AO16&wdHideGridlines=True&wdDownloadButton=True&wdInConfigurator=True"></iframe>
-### AS Level 1
-<iframe width="1000" height="454" frameborder="0" scrolling="no" src="https://universityofcambridgecloud-my.sharepoint.com/personal/as2945_cam_ac_uk/_layouts/15/Doc.aspx?sourcedoc={1f4b5bc8-4e9e-4ea3-87ff-2c1e991b61fe}&action=embedview&AllowTyping=True&Item='L1%20Parts'!A1%3AN25&wdHideGridlines=True&wdDownloadButton=True&wdInConfigurator=True"></iframe>
-### AS Level T
-<iframe width="1000" height="500" frameborder="0" scrolling="no" src="https://universityofcambridgecloud-my.sharepoint.com/personal/as2945_cam_ac_uk/_layouts/15/Doc.aspx?sourcedoc={1f4b5bc8-4e9e-4ea3-87ff-2c1e991b61fe}&action=embedview&AllowTyping=True&Item='LT%20Parts'!A1%3AN30&wdHideGridlines=True&wdDownloadButton=True&wdInConfigurator=True"></iframe>
-
-## DGK
-### DGK0
-### DGK1
-### DGKM
-
-## JML
-### JML0
-### JML1
-### JMLT
-
-## XX
-### XX0
-### XX1
-### XXT
+# Table of New Acceptors
+<table>
+<thead>
+  <tr>
+    <th>Tube Number</th>
+    <th>MoClo</th>
+    <th>pJML</th>
+    <th>Insert</th>
+    <th>Successful Assembly</th>
+    <th>Succesful sequencing</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>1</td>
+    <td>PICH41233</td>
+    <td>pJMLA0.001</td>
+    <td>Pro</td>
+    <td>y</td>
+    <td>m</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>PAGM1251</td>
+    <td>pJMLA0.002</td>
+    <td>Pro+5U(f)</td>
+    <td>y</td>
+    <td>m</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>PICH41295</td>
+    <td>pJMLA0.003</td>
+    <td>Pro+5U</td>
+    <td>y</td>
+    <td>m</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>PAGM1263</td>
+    <td>pJMLA0.004</td>
+    <td>5U(f)</td>
+    <td>y</td>
+    <td>m</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>PICH41246</td>
+    <td>pJMLA0.005</td>
+    <td>5U</td>
+    <td>y</td>
+    <td>y</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>PAGM1276</td>
+    <td>pJMLA0.006</td>
+    <td>NT1</td>
+    <td>y</td>
+    <td>y</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>PICH41258</td>
+    <td>pJMLA0.007</td>
+    <td>SP</td>
+    <td>y</td>
+    <td>m</td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>PICH41308</td>
+    <td>pJMLA0.008</td>
+    <td>CDS1</td>
+    <td>y</td>
+    <td>y</td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td>PICH41287</td>
+    <td>pJMLA0.009</td>
+    <td>CDS1 ns</td>
+    <td>y</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>PICH41264</td>
+    <td>pJMLA0.010</td>
+    <td>CDS2</td>
+    <td>y</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>11</td>
+    <td>PAGM1299</td>
+    <td>pJMLA0.011</td>
+    <td>CDS2 ns</td>
+    <td>y</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>12</td>
+    <td>PAGM1301</td>
+    <td>pJMLA0.012</td>
+    <td>CT</td>
+    <td>y</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>13</td>
+    <td>PICH53388</td>
+    <td>pJMLA0.013</td>
+    <td>3U</td>
+    <td>y</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>14</td>
+    <td>PICH41276</td>
+    <td>pJMLA0.014</td>
+    <td>3U+Ter</td>
+    <td>y</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>15</td>
+    <td>PICH53399</td>
+    <td>pJMLA0.015</td>
+    <td>Ter</td>
+    <td>y</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>16</td>
+    <td>PICH41331</td>
+    <td>pJMLA0.016</td>
+    <td>L0 Whole</td>
+    <td>y</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>17</td>
+    <td>PAGM9121</td>
+    <td>pJMLA0.017</td>
+    <td>Unversal L0 Acceptor</td>
+    <td>y</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>18</td>
+    <td>L1P1</td>
+    <td>pJMLA1.001</td>
+    <td>L1P1</td>
+    <td>y</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>19</td>
+    <td>L1P2</td>
+    <td>pJMLA1.002</td>
+    <td>L1P2</td>
+    <td>y</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>20</td>
+    <td>L1P3</td>
+    <td>pJMLA1.003</td>
+    <td>L1P3</td>
+    <td>y</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>21</td>
+    <td>L1P4</td>
+    <td>pJMLA1.004</td>
+    <td>L1P4</td>
+    <td>y</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>22</td>
+    <td>L1P5</td>
+    <td>pJMLA1.005</td>
+    <td>L1P5</td>
+    <td>y</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>23</td>
+    <td>L1P6</td>
+    <td>pJMLA1.006</td>
+    <td>L1P6</td>
+    <td>y</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>24</td>
+    <td>L1P7</td>
+    <td>pJMLA1.007</td>
+    <td>L1P7</td>
+    <td>y</td>
+    <td></td>
+  </tr>
+</tbody>
+</table>
 
 
 <script>
